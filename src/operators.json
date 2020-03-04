@@ -1,0 +1,1186 @@
+{
+  "alibi": {
+    "name": "Alibi",
+    "role": "Attacker",
+    "unit": "GIS",
+    "ratings": {
+      "armor": 1,
+      "speed": 3,
+      "difficulty": 3
+    },
+    "meta": {
+      "sex": "f",
+      "country": "it",
+      "season": "Y3S2",
+      "height": 171,
+      "weight": 63
+    },
+    "bio": {
+      "real_name": "Aria de Luca",
+      "birthplace": "Tripoli, Lybia"
+    }
+  },
+  "amaru": {
+    "name": "Amaru",
+    "role": "Attacker",
+    "unit": "APCA",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 2
+    },
+    "meta": {
+      "sex": "f",
+      "country": "pe",
+      "season": "Y4S3",
+      "height": 189,
+      "weight": 84
+    },
+    "bio": {
+      "real_name": "Azucena Rocío Quispe",
+      "birthplace": "Cojata, Peru"
+    }
+  },
+  "ash": {
+    "name": "Ash",
+    "role": "Attacker",
+    "unit": "FBI",
+    "ratings": {
+      "armor": 1,
+      "speed": 3,
+      "difficulty": 2
+    },
+    "meta": {
+      "sex": "f",
+      "country": "us",
+      "season": "Release",
+      "height": 170,
+      "weight": 63
+    },
+    "bio": {
+      "real_name": "Eliza Cohen",
+      "birthplace": "Jerusalem, Israel"
+    }
+  },
+  "bandit": {
+    "name": "Bandit",
+    "role": "Defender",
+    "unit": "GSG9",
+    "ratings": {
+      "armor": 1,
+      "speed": 3,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "m",
+      "country": "de",
+      "season": "Release",
+      "height": 180,
+      "weight": 68
+    },
+    "bio": {
+      "real_name": "Dominic Brunsmeier",
+      "birthplace": "Berlin, Germany"
+    }
+  },
+  "blackbeard": {
+    "name": "Blackbeard",
+    "role": "Attacker",
+    "unit": "SEALS",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "m",
+      "country": "us",
+      "season": "Y1S2",
+      "height": 180,
+      "weight": 84
+    },
+    "bio": {
+      "real_name": "Craig Jenson",
+      "birthplace": "Bellevue, U.S.A"
+    }
+  },
+  "blitz": {
+    "name": "Blitz",
+    "role": "Attacker",
+    "unit": "GSG9",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 3
+    },
+    "meta": {
+      "sex": "m",
+      "country": "de",
+      "season": "Y1S2",
+      "height": 175,
+      "weight": 75
+    },
+    "bio": {
+      "real_name": "Elias Kötz",
+      "birthplace": "Bremen, Germany"
+    }
+  },
+  "buck": {
+    "name": "Buck",
+    "role": "Attacker",
+    "unit": "JTF-2",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "m",
+      "country": "ca",
+      "season": "Y1S1",
+      "height": 178,
+      "weight": 84
+    },
+    "bio": {
+      "real_name": "Sébastien Côté",
+      "birthplace": "Montreal, Canada"
+    }
+  },
+  "capitao": {
+    "name": "Capitao",
+    "role": "Attacker",
+    "unit": "BOPE",
+    "ratings": {
+      "armor": 1,
+      "speed": 3,
+      "difficulty": 2
+    },
+    "meta": {
+      "sex": "m",
+      "country": "br",
+      "season": "Y1S3",
+      "height": 180,
+      "weight": 86
+    },
+    "bio": {
+      "real_name": "Vincente Souza",
+      "birthplace": "Nova Iguacu, Brazil"
+    }
+  },
+  "castle": {
+    "name": "Castle",
+    "role": "Defender",
+    "unit": "SWAT",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 2
+    },
+    "meta": {
+      "sex": "m",
+      "country": "us",
+      "season": "Release",
+      "height": 185,
+      "weight": 86
+    },
+    "bio": {
+      "real_name": "Miles Campbell",
+      "birthplace": "Sherman Oaks, U.S.A"
+    }
+  },
+  "caveira": {
+    "name": "Caveira",
+    "role": "Defender",
+    "unit": "BOPE",
+    "ratings": {
+      "armor": 1,
+      "speed": 3,
+      "difficulty": 3
+    },
+    "meta": {
+      "sex": "f",
+      "country": "br",
+      "season": "Y1S3",
+      "height": 155,
+      "weight": 73
+    },
+    "bio": {
+      "real_name": "Taina Pereira",
+      "birthplace": "Rinópolis, Brazil"
+    }
+  },
+  "clash": {
+    "name": "Clash",
+    "role": "Defender",
+    "unit": "GSUTR",
+    "ratings": {
+      "armor": 3,
+      "speed": 1,
+      "difficulty": 3
+    },
+    "meta": {
+      "sex": "f",
+      "country": "uk",
+      "season": "Y3S3",
+      "height": 179,
+      "weight": 73
+    },
+    "bio": {
+      "real_name": "Morowa Evans",
+      "birthplace": "London, England"
+    }
+  },
+  "doc": {
+    "name": "Doc",
+    "role": "Defender",
+    "unit": "GIGN",
+    "ratings": {
+      "armor": 3,
+      "speed": 1,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "m",
+      "country": "fr",
+      "season": "Release",
+      "height": 177,
+      "weight": 79
+    },
+    "bio": {
+      "real_name": "Morowa Evans",
+      "birthplace": "Paris, France"
+    }
+  },
+  "dokkaebi": {
+    "name": "Dokkaebi",
+    "role": "Attacker",
+    "unit": "SMB",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 2
+    },
+    "meta": {
+      "sex": "f",
+      "country": "sk",
+      "season": "Y2S4",
+      "height": 169,
+      "weight": 62
+    },
+    "bio": {
+      "real_name": "Grace Nam",
+      "birthplace": "Seoul, South Korea"
+    }
+  },
+  "echo": {
+    "name": "Echo",
+    "role": "Defender",
+    "unit": "SAT",
+    "ratings": {
+      "armor": 3,
+      "speed": 1,
+      "difficulty": 3
+    },
+    "meta": {
+      "sex": "m",
+      "country": "jp",
+      "season": "Y1S4",
+      "height": 180,
+      "weight": 72
+    },
+    "bio": {
+      "real_name": "Masaru Enatsu",
+      "birthplace": "Suginami, Japan"
+    }
+  },
+  "ela": {
+    "name": "Ela",
+    "role": "Defender",
+    "unit": "GROM",
+    "ratings": {
+      "armor": 1,
+      "speed": 3,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "f",
+      "country": "pl",
+      "season": "Y1S4",
+      "height": 173,
+      "weight": 68
+    },
+    "bio": {
+      "real_name": "Elzbieta Bosak",
+      "birthplace": "Wroclaw, Poland"
+    }
+  },
+  "finka": {
+    "name": "Finka",
+    "role": "Attacker",
+    "unit": "CBRN",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "f",
+      "country": "ru",
+      "season": "Y3S1",
+      "height": 171,
+      "weight": 68
+    },
+    "bio": {
+      "real_name": "Lera Melnikova",
+      "birthplace": "Gomel, Belarus"
+    }
+  },
+  "frost": {
+    "name": "Frost",
+    "role": "Defender",
+    "unit": "JTF-2",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "f",
+      "country": "ca",
+      "season": "Y1S1",
+      "height": 172,
+      "weight": 58
+    },
+    "bio": {
+      "real_name": "Tina Lin Tsang",
+      "birthplace": "Vancouver, Canada"
+    }
+  },
+  "fuze": {
+    "name": "Fuze",
+    "role": "Attacker",
+    "unit": "SPETSNAZ",
+    "ratings": {
+      "armor": 3,
+      "speed": 1,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "m",
+      "country": "ru",
+      "season": "Release",
+      "height": 172,
+      "weight": 58
+    },
+    "bio": {
+      "real_name": "Shuhrat Kessikbayev",
+      "birthplace": "Samarkand, Uzbekistan"
+    }
+  },
+  "glaz": {
+    "name": "Glaz",
+    "role": "Attacker",
+    "unit": "SPETSNAZ",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "m",
+      "country": "ru",
+      "season": "Release",
+      "height": 178,
+      "weight": 79
+    },
+    "bio": {
+      "real_name": "Timur Glazkov",
+      "birthplace": "Vladivostok, Russia"
+    }
+  },
+  "goyo": {
+    "name": "Goyo",
+    "role": "Defender",
+    "unit": "FES",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 2
+    },
+    "meta": {
+      "sex": "m",
+      "country": "mx",
+      "season": "Y4S3",
+      "height": 171,
+      "weight": 83
+    },
+    "bio": {
+      "real_name": "César Ruiz Hernández",
+      "birthplace": "Culiacán Rosales, Mexico"
+    }
+  },
+  "gridlock": {
+    "name": "Gridlock",
+    "role": "Attacker",
+    "unit": "SASR",
+    "ratings": {
+      "armor": 3,
+      "speed": 1,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "f",
+      "country": "au",
+      "season": "Y4S1",
+      "height": 171,
+      "weight": 83
+    },
+    "bio": {
+      "real_name": "Tori Tallyo Fairous",
+      "birthplace": "Longreach, Australia"
+    }
+  },
+  "hibana": {
+    "name": "Hibana",
+    "role": "Attacker",
+    "unit": "SAT",
+    "ratings": {
+      "armor": 1,
+      "speed": 3,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "f",
+      "country": "jp",
+      "season": "Y1S4",
+      "height": 173,
+      "weight": 57
+    },
+    "bio": {
+      "real_name": "Yumiko Imagawa",
+      "birthplace": "Nagoya, Japan"
+    }
+  },
+  "iana": {
+    "name": "Iana",
+    "role": "Attacker",
+    "unit": "REU",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": null
+    },
+    "meta": {
+      "sex": "f",
+      "country": "nl",
+      "season": "Y5S1",
+      "height": 157,
+      "weight": 56
+    },
+    "bio": {
+      "real_name": "Nienke Meijer",
+      "birthplace": "Katwijk, Nederlands"
+    }
+  },
+  "iq": {
+    "name": "IQ",
+    "role": "Attacker",
+    "unit": "GSG9",
+    "ratings": {
+      "armor": 1,
+      "speed": 3,
+      "difficulty": 3
+    },
+    "meta": {
+      "sex": "f",
+      "country": "de",
+      "season": "Release",
+      "height": 175,
+      "weight": 70
+    },
+    "bio": {
+      "real_name": "Monika Weiss",
+      "birthplace": "Leipzig, Germany"
+    }
+  },
+  "jackal": {
+    "name": "Jackal",
+    "role": "Attacker",
+    "unit": "GEO",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 3
+    },
+    "meta": {
+      "sex": "m",
+      "country": "es",
+      "season": "Release",
+      "height": 190,
+      "weight": 78
+    },
+    "bio": {
+      "real_name": "Ryad Ramirez Al-Hassar",
+      "birthplace": "Ceuta, Spain"
+    }
+  },
+  "jager": {
+    "name": "Jäger",
+    "role": "Defender",
+    "unit": "GSG9",
+    "ratings": {
+      "armor": 1,
+      "speed": 3,
+      "difficulty": 2
+    },
+    "meta": {
+      "sex": "m",
+      "country": "de",
+      "season": "Release",
+      "height": 180,
+      "weight": 64
+    },
+    "bio": {
+      "real_name": "Marius Streicher",
+      "birthplace": "Düsseldorf, Germany"
+    }
+  },
+  "kaid": {
+    "name": "Kaid",
+    "role": "Defender",
+    "unit": "GIGR",
+    "ratings": {
+      "armor": 3,
+      "speed": 1,
+      "difficulty": 2
+    },
+    "meta": {
+      "sex": "m",
+      "country": "ma",
+      "season": "Y3S4",
+      "height": 195,
+      "weight": 98
+    },
+    "bio": {
+      "real_name": "Jalal El Fassi",
+      "birthplace": "Aroumd, Morocco"
+    }
+  },
+  "kali": {
+    "name": "Kali",
+    "role": "Attacker",
+    "unit": "NIGHTHAVEN",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 2
+    },
+    "meta": {
+      "sex": "f",
+      "country": "in",
+      "season": "Y4S4",
+      "height": 170,
+      "weight": 67
+    },
+    "bio": {
+      "real_name": "Jaimini Kalimohan Shah",
+      "birthplace": "Amreli, India"
+    }
+  },
+  "kapkan": {
+    "name": "Kapkan",
+    "role": "Defender",
+    "unit": "SPETSNAZ",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "m",
+      "country": "ru",
+      "season": "Release",
+      "height": 180,
+      "weight": 80
+    },
+    "bio": {
+      "real_name": "Maxim Basuda",
+      "birthplace": "Kovrov, Russia"
+    }
+  },
+  "lesion": {
+    "name": "Lesion",
+    "role": "Defender",
+    "unit": "SDU",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "m",
+      "country": "hk",
+      "season": "Y2S3",
+      "height": 174,
+      "weight": 82
+    },
+    "bio": {
+      "real_name": "Liu Tze Long",
+      "birthplace": "Tseung Kwan O (Junk Bay), Hong Kong"
+    }
+  },
+  "lion": {
+    "name": "Lion",
+    "role": "Attacker",
+    "unit": "CBRN",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "m",
+      "country": "fr",
+      "season": "Y3S1",
+      "height": 185,
+      "weight": 87
+    },
+    "bio": {
+      "real_name": "Olivier Flament",
+      "birthplace": "Toulouse, France"
+    }
+  },
+  "maestro": {
+    "name": "Maestro",
+    "role": "Defender",
+    "unit": "GIS",
+    "ratings": {
+      "armor": 3,
+      "speed": 1,
+      "difficulty": 2
+    },
+    "meta": {
+      "sex": "m",
+      "country": "it",
+      "season": "Y3S2",
+      "height": 185,
+      "weight": 87
+    },
+    "bio": {
+      "real_name": "Adriano Martello",
+      "birthplace": "Rome, Italy"
+    }
+  },
+  "maverick": {
+    "name": "Maverick",
+    "role": "Attacker",
+    "unit": "GSUTR",
+    "ratings": {
+      "armor": 1,
+      "speed": 3,
+      "difficulty": 2
+    },
+    "meta": {
+      "sex": "m",
+      "country": "us",
+      "season": "Y3S3",
+      "height": 180,
+      "weight": 82
+    },
+    "bio": {
+      "real_name": "Erik Thorn",
+      "birthplace": "Boston, U.S.A"
+    }
+  },
+  "mira": {
+    "name": "Mira",
+    "role": "Defender",
+    "unit": "GEO",
+    "ratings": {
+      "armor": 3,
+      "speed": 1,
+      "difficulty": 3
+    },
+    "meta": {
+      "sex": "f",
+      "country": "es",
+      "season": "Y2S1",
+      "height": 165,
+      "weight": 60
+    },
+    "bio": {
+      "real_name": "Elena Maria Alvarez del Manzano",
+      "birthplace": "Madrid, Spain"
+    }
+  },
+  "montagne": {
+    "name": "Montagne",
+    "role": "Attacker",
+    "unit": "GIGN",
+    "ratings": {
+      "armor": 3,
+      "speed": 1,
+      "difficulty": 3
+    },
+    "meta": {
+      "sex": "m",
+      "country": "fr",
+      "season": "Release",
+      "height": 190,
+      "weight": 100
+    },
+    "bio": {
+      "real_name": "Gilles Touré",
+      "birthplace": "Bordeaux, France"
+    }
+  },
+  "mozzie": {
+    "name": "Mozzie",
+    "role": "Defender",
+    "unit": "SASR",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 2
+    },
+    "meta": {
+      "sex": "m",
+      "country": "au",
+      "season": "Y4S1",
+      "height": 162,
+      "weight": 57
+    },
+    "bio": {
+      "real_name": "Max Goose",
+      "birthplace": "Portland, Australia"
+    }
+  },
+  "mute": {
+    "name": "Mute",
+    "role": "Defender",
+    "unit": "SAS",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "m",
+      "country": "uk",
+      "season": "Release",
+      "height": 170,
+      "weight": 80
+    },
+    "bio": {
+      "real_name": "Mark Chandar",
+      "birthplace": "York, England"
+    }
+  },
+  "nokk": {
+    "name": "Nokk",
+    "role": "Attacker",
+    "unit": "JAEGER CORPS",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 3
+    },
+    "meta": {
+      "sex": "f",
+      "country": "dk",
+      "season": "Y4S2",
+      "height": null,
+      "weight": null
+    },
+    "bio": {
+      "real_name": "[REDACTED]",
+      "birthplace": "[REDACTED]"
+    }
+  },
+  "nomad": {
+    "name": "Nomad",
+    "role": "Attacker",
+    "unit": "GIGR",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 3
+    },
+    "meta": {
+      "sex": "f",
+      "country": "ma",
+      "season": "Y3S4",
+      "height": 171,
+      "weight": 63
+    },
+    "bio": {
+      "real_name": "Sanaa El Maktoub",
+      "birthplace": "Marrakesh, Morocco"
+    }
+  },
+  "oryx": {
+    "name": "Oryx",
+    "role": "Defender",
+    "unit": "UNAFFILIATED",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": null
+    },
+    "meta": {
+      "sex": "m",
+      "country": "jo",
+      "season": "Y5S1",
+      "height": 195,
+      "weight": 130
+    },
+    "bio": {
+      "real_name": "Saif Al Hadid",
+      "birthplace": "Azraq, Jordan"
+    }
+  },
+  "pulse": {
+    "name": "Pulse",
+    "role": "Defender",
+    "unit": "FBI",
+    "ratings": {
+      "armor": 1,
+      "speed": 3,
+      "difficulty": 3
+    },
+    "meta": {
+      "sex": "m",
+      "country": "us",
+      "season": "Release",
+      "height": 188,
+      "weight": 85
+    },
+    "bio": {
+      "real_name": "Jack Estrada",
+      "birthplace": "Goldsboro, U.S.A"
+    }
+  },
+  "rook": {
+    "name": "Rook",
+    "role": "Defender",
+    "unit": "GIGN",
+    "ratings": {
+      "armor": 3,
+      "speed": 1,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "m",
+      "country": "fr",
+      "season": "Release",
+      "height": 175,
+      "weight": 72
+    },
+    "bio": {
+      "real_name": "Julien Nizan",
+      "birthplace": "Tours, France"
+    }
+  },
+  "sledge": {
+    "name": "Sledge",
+    "role": "Attacker",
+    "unit": "SAS",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "m",
+      "country": "uk",
+      "season": "Release",
+      "height": 192,
+      "weight": 95
+    },
+    "bio": {
+      "real_name": "Seamus Cowden",
+      "birthplace": "John O’groats, Scotland"
+    }
+  },
+  "smoke": {
+    "name": "Smoke",
+    "role": "Defender",
+    "unit": "SAS",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 2
+    },
+    "meta": {
+      "sex": "m",
+      "country": "uk",
+      "season": "Release",
+      "height": 173,
+      "weight": 70
+    },
+    "bio": {
+      "real_name": "James Porter",
+      "birthplace": "London, England"
+    }
+  },
+  "tachanka": {
+    "name": "Tachanka",
+    "role": "Defender",
+    "unit": "SPETSNAZ",
+    "ratings": {
+      "armor": 3,
+      "speed": 1,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "m",
+      "country": "ru",
+      "season": "Release",
+      "height": 183,
+      "weight": 99.8
+    },
+    "bio": {
+      "real_name": "Alexandr Senaviev",
+      "birthplace": "Saint Petersburg, Russia"
+    }
+  },
+  "thatcher": {
+    "name": "Thatcher",
+    "role": "Attacker",
+    "unit": "SAS",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "m",
+      "country": "uk",
+      "season": "Release",
+      "height": 180,
+      "weight": 86
+    },
+    "bio": {
+      "real_name": "Mike Baker",
+      "birthplace": "BiDefenderord, England"
+    }
+  },
+  "thermite": {
+    "name": "Thermite",
+    "role": "Attacker",
+    "unit": "FBI",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "m",
+      "country": "us",
+      "season": "Release",
+      "height": 178,
+      "weight": 80
+    },
+    "bio": {
+      "real_name": "Jordan Trace",
+      "birthplace": "Plano, U.S.A"
+    }
+  },
+  "twitch": {
+    "name": "Twitch",
+    "role": "Attacker",
+    "unit": "GIGN",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 2
+    },
+    "meta": {
+      "sex": "f",
+      "country": "fr",
+      "season": "Release",
+      "height": 168,
+      "weight": 58
+    },
+    "bio": {
+      "real_name": "Emmanuelle Pichon",
+      "birthplace": "Nancy, France"
+    }
+  },
+  "valkyrie": {
+    "name": "Valkyrie",
+    "role": "Defender",
+    "unit": "SEALS",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 2
+    },
+    "meta": {
+      "sex": "f",
+      "country": "us",
+      "season": "Y1S2",
+      "height": 170,
+      "weight": 57
+    },
+    "bio": {
+      "real_name": "Meghan J. Castellano",
+      "birthplace": "Oceanside, U.S.A"
+    }
+  },
+  "vigil": {
+    "name": "Vigil",
+    "role": "Defender",
+    "unit": "SMB",
+    "ratings": {
+      "armor": 1,
+      "speed": 3,
+      "difficulty": 3
+    },
+    "meta": {
+      "sex": "m",
+      "country": "sk",
+      "season": "Y2S4",
+      "height": 173,
+      "weight": 73
+    },
+    "bio": {
+      "real_name": "Chul Kyung Hwa",
+      "birthplace": "[REDACTED]"
+    }
+  },
+  "wamai": {
+    "name": "Wamai",
+    "role": "Defender",
+    "unit": "NIGHTHAVEN",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 2
+    },
+    "meta": {
+      "sex": "m",
+      "country": "ke",
+      "season": "Y4S4",
+      "height": 187,
+      "weight": 83
+    },
+    "bio": {
+      "real_name": "Ngũgĩ Muchoki Furaha",
+      "birthplace": "Lamu, Kenya"
+    }
+  },
+  "warden": {
+    "name": "Warden",
+    "role": "Defender",
+    "unit": "SECRET SERVICE",
+    "ratings": {
+      "armor": 3,
+      "speed": 1,
+      "difficulty": 2
+    },
+    "meta": {
+      "sex": "m",
+      "country": "us",
+      "season": "Y4S2",
+      "height": 173,
+      "weight": 73
+    },
+    "bio": {
+      "real_name": "Collinn McKinley",
+      "birthplace": "Louisville, U.S.A"
+    }
+  },
+  "ying": {
+    "name": "Ying",
+    "role": "Attacker",
+    "unit": "SDU",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 2
+    },
+    "meta": {
+      "sex": "f",
+      "country": "hk",
+      "season": "Y2S3",
+      "height": 160,
+      "weight": 52
+    },
+    "bio": {
+      "real_name": "Siu Mei Lin",
+      "birthplace": "Central, Hong Kong"
+    }
+  },
+  "zofia": {
+    "name": "Zofia",
+    "role": "Attacker",
+    "unit": "GROM",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": 1
+    },
+    "meta": {
+      "sex": "f",
+      "country": "pl",
+      "season": "Y2S4",
+      "height": 179,
+      "weight": 72
+    },
+    "bio": {
+      "real_name": "Zofia Bosak",
+      "birthplace": "Wroclaw, Poland"
+    }
+  },
+  "recruit_blue": {
+    "name": "Recruit (Blue)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  },
+  "recruit_green": {
+    "name": "Recruit (Green)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  },
+  "recruit_orange": {
+    "name": "Recruit (Orange)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  },
+  "recruit_red": {
+    "name": "Recruit (Red)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  },
+  "recruit_yellow": {
+    "name": "Recruit (Yellow)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  },
+  "outbreakrecruit_blue": {
+    "name": "Outbreak Recruit (Blue)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  },
+  "outbreakrecruit_green": {
+    "name": "Outbreak Recruit (Green)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  },
+  "outbreakrecruit_orange": {
+    "name": "Outbreak Recruit (Orange)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  },
+  "outbreakrecruit_red": {
+    "name": "Outbreak Recruit (Red)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  },
+  "outbreakrecruit_yellow": {
+    "name": "Outbreak Recruit (Yellow)",
+    "role": "Recruit",
+    "unit": "Recruit"
+  }
+}
