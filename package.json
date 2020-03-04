@@ -26,6 +26,10 @@
   ],
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
   "scripts": {
     "build": "npm-run-all clean build:icons build:ts",
     "build:icons": "ts-node ./scripts/buildIcons.ts",
