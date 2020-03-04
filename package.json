@@ -1,0 +1,28 @@
+{
+  "name": "r6operators",
+  "version": "1.0.0",
+  "description": "r6operators is a collection of high-quality vectorized Rainbow Six: Siege Operator icons & metadata for Node.js",
+  "keywords": [
+    "rainbow six siege",
+    "r6",
+    "R6S",
+    "siege",
+    "operator",
+    "icon",
+    "ubisoft",
+    "rainbow6"
+  ],
+  "bugs": "https://github.com/flaviocopes/package/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcopixel/r6operators.git"
+  },
+  "license": "MIT",
+  "author": "Marco Vockner <marcopixel@live.de>",
+  "contributors": [
+    "dtSniper (https://twitter.com/sniperdt)",
+    "Joey Foo (https://github.com/joeyfoo)",
+    "Lars Brix (https://github.com/LaxisB)"
+  ],
+  "main": "index.js"
+}

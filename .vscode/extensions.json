@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "shardulm94.trailing-spaces",
+    "wayou.vscode-todo-highlight",
+    "dbaeumer.vscode-eslint"
+  ],
+  "unwantedRecommendations": []
+}
