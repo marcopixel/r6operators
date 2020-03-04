@@ -1,11 +1,22 @@
 {
+  "parser": "@typescript-eslint/parser",
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:import/recommended",
+    "plugin:import/typescript",
     "plugin:prettier/recommended",
     "plugin:promise/recommended",
     "plugin:unicorn/recommended"
-  ]
+  ],
+  "rules": {
+    "@typescript-eslint/interface-name-prefix": "off",
+    "@typescript-eslint/class-name-casing": [
+      "error",
+      {
+        "allowUnderscorePrefix": true
+      }
+    ]
+  }
 }
