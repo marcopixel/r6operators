@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-named-as-default
 import Operator from "./modules/operator";
 import operatorJson from "./operators.json";
 

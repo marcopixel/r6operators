@@ -4,7 +4,7 @@ import { IOperator } from "../interfaces/operator";
 
 import iconData from "../icons.json";
 
-export interface _Operator extends IOperator {
+export interface Operator extends IOperator {
   /** ID of the operator. */
   id: string;
 
@@ -36,7 +36,7 @@ function attributesToString(attributes: object): string {
     .join(" ");
 }
 
-export default function Operator(id: string, contents: IOperator): _Operator {
+export default function Operator(id: string, contents: IOperator): Operator {
   // get attributes + values of the SVG string
   const $ = cheerio.load(`${iconData[id]}`);
   const attributes = {
