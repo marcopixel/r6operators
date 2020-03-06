@@ -28,7 +28,7 @@ npm install r6operators
 ```js
 const r6operators = require("r6operators");
 
-import r6operators from "r6operators";
+import r6operators from "r6operators"; // ES6 imports
 ```
 
 ##### 3. Use it
@@ -63,6 +63,8 @@ r6operators.alibi.toSVG();
 r6operators.alibi.toSVG({ class: "large", "stroke-width": 2, color: "red" });
 // <svg class="r6operators r6operators-alibi large" stroke-width="2" color="red" ... >...</svg>
 ```
+
+You can also access the optimized SVG & PNG icons directly from `node_modules\r6operators\lib\icons` if you desire.
 
 ## Reference
 
