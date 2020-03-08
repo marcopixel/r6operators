@@ -1136,51 +1136,51 @@
   "recruit_blue": {
     "name": "Recruit (Blue)",
     "role": "Recruit",
-    "unit": "Recruit"
+    "unit": "RECRUIT"
   },
   "recruit_green": {
     "name": "Recruit (Green)",
     "role": "Recruit",
-    "unit": "Recruit"
+    "unit": "RECRUIT"
   },
   "recruit_orange": {
     "name": "Recruit (Orange)",
     "role": "Recruit",
-    "unit": "Recruit"
+    "unit": "RECRUIT"
   },
   "recruit_red": {
     "name": "Recruit (Red)",
     "role": "Recruit",
-    "unit": "Recruit"
+    "unit": "RECRUIT"
   },
   "recruit_yellow": {
     "name": "Recruit (Yellow)",
     "role": "Recruit",
-    "unit": "Recruit"
+    "unit": "RECRUIT"
   },
   "outbreakrecruit_blue": {
     "name": "Outbreak Recruit (Blue)",
     "role": "Recruit",
-    "unit": "Recruit"
+    "unit": "RECRUIT"
   },
   "outbreakrecruit_green": {
     "name": "Outbreak Recruit (Green)",
     "role": "Recruit",
-    "unit": "Recruit"
+    "unit": "RECRUIT"
   },
   "outbreakrecruit_orange": {
     "name": "Outbreak Recruit (Orange)",
     "role": "Recruit",
-    "unit": "Recruit"
+    "unit": "RECRUIT"
   },
   "outbreakrecruit_red": {
     "name": "Outbreak Recruit (Red)",
     "role": "Recruit",
-    "unit": "Recruit"
+    "unit": "RECRUIT"
   },
   "outbreakrecruit_yellow": {
     "name": "Outbreak Recruit (Yellow)",
     "role": "Recruit",
-    "unit": "Recruit"
+    "unit": "RECRUIT"
   }
 }
