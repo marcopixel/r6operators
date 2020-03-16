@@ -1,3 +1,6 @@
+![r6operators Header Image](https://i.imgur.com/1qhhXYK.png)
+
+
 # r6operators
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/marcopixel/r6operators.svg?style=for-the-badge)
