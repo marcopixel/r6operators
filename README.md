@@ -12,6 +12,7 @@ r6operators is a collection of high-quality vectorized Rainbow Six: Siege Operat
 
 This project started as way for people to get high-resolution operator icons for Rainbow Six: Siege operators, especially as vector graphics gained popularity in web development in the recent years. All icons have been remade by hand and they got the same aspect ratio & alignment for more consistent usage.
 
+[https://r6operators.marcopixel.eu/](https://r6operators.marcopixel.eu/)
 ```shell
 npm install r6operators
 ```
