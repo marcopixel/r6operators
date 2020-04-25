@@ -13,7 +13,7 @@
     "rainbow6"
   ],
   "homepage": "https://r6operators.marcopixel.eu/",
-  "bugs": "https://github.com/flaviocopes/package/issues",
+  "bugs": "https://github.com/marcopixel/r6operators/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/marcopixel/r6operators.git"
