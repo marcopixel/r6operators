@@ -529,8 +529,8 @@
     "role": "Defender",
     "unit": "GSG9",
     "ratings": {
-      "armor": 1,
-      "speed": 3,
+      "armor": 2,
+      "speed": 2,
       "difficulty": 2
     },
     "meta": {
@@ -1075,8 +1075,8 @@
     "role": "Defender",
     "unit": "SECRET SERVICE",
     "ratings": {
-      "armor": 3,
-      "speed": 1,
+      "armor": 2,
+      "speed": 2,
       "difficulty": 2
     },
     "meta": {
