@@ -489,7 +489,7 @@
     "ratings": {
       "armor": 2,
       "speed": 2,
-      "difficulty": null
+      "difficulty": 1
     },
     "meta": {
       "sex": "f",
@@ -867,7 +867,7 @@
     "ratings": {
       "armor": 2,
       "speed": 2,
-      "difficulty": null
+      "difficulty": 2
     },
     "meta": {
       "sex": "m",
