@@ -6,14 +6,14 @@
     "ratings": {
       "armor": 2,
       "speed": 2,
-      "difficulty": null
+      "difficulty": 1
     },
     "meta": {
       "sex": "m",
       "country": "no",
       "season": "Y5S2",
-      "height": null,
-      "weight": null
+      "height": 187,
+      "weight": 75
     },
     "bio": {
       "real_name": "Håvard Haugland",
@@ -720,14 +720,14 @@
     "ratings": {
       "armor": 1,
       "speed": 3,
-      "difficulty": null
+      "difficulty": 1
     },
     "meta": {
       "sex": "f",
       "country": "sa",
       "season": "Y5S2",
-      "height": null,
-      "weight": null
+      "height": 172,
+      "weight": 68
     },
     "bio": {
       "real_name": "Thandiwe Ndlovu",
