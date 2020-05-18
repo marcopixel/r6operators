@@ -1,4 +1,25 @@
 {
+  "ace": {
+    "name": "Ace",
+    "role": "Attacker",
+    "unit": "NIGHTHAVEN",
+    "ratings": {
+      "armor": 2,
+      "speed": 2,
+      "difficulty": null
+    },
+    "meta": {
+      "sex": "m",
+      "country": "no",
+      "season": "Y5S2",
+      "height": null,
+      "weight": null
+    },
+    "bio": {
+      "real_name": "Håvard Haugland",
+      "birthplace": "Lærdalsøyri, Norway"
+    }
+  },
   "alibi": {
     "name": "Alibi",
     "role": "Attacker",
@@ -690,6 +711,27 @@
     "bio": {
       "real_name": "Erik Thorn",
       "birthplace": "Boston, U.S.A"
+    }
+  },
+  "melusi": {
+    "name": "Melusi",
+    "role": "Defender",
+    "unit": "ITF",
+    "ratings": {
+      "armor": 1,
+      "speed": 3,
+      "difficulty": null
+    },
+    "meta": {
+      "sex": "f",
+      "country": "sa",
+      "season": "Y5S2",
+      "height": null,
+      "weight": null
+    },
+    "bio": {
+      "real_name": "Thandiwe Ndlovu",
+      "birthplace": "Louwsburg, South Africa"
     }
   },
   "mira": {
