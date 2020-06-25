@@ -16,7 +16,7 @@ export default async function optimizeSvg(iconObject: {}): Promise<void> {
   // map the icon object
   const result = Object.keys(iconObject).map(async op => {
     // set icon path + output path
-    const inputFile = path.resolve(`${ICON_DIR}/${op}.svg`);
+    const inputFile = path.resolve(`${ICON_DIR}/${op}/${op}.svg`);
     const outputPath = path.resolve(`${OUTPUT_DIR}/svg/`);
 
     // check if input file exists
