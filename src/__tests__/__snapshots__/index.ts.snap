@@ -20,7 +20,7 @@ Object {
     "difficulty": 3,
     "speed": 3,
   },
-  "role": "Attacker",
+  "role": "Defender",
   "svg": Object {
     "attributes": Object {
       "class": "r6operators r6operators-alibi",
