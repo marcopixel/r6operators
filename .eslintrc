@@ -1,35 +1,37 @@
 {
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": true
+  },
   "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint", "import"],
   "extends": [
     "eslint:recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:import/recommended",
     "plugin:import/typescript",
+    "plugin:unicorn/recommended",
     "plugin:prettier/recommended",
-    "plugin:promise/recommended",
-    "plugin:unicorn/recommended"
+    "prettier/@typescript-eslint",
+    "prettier/unicorn"
   ],
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
   "rules": {
-    "@typescript-eslint/interface-name-prefix": "off",
-    "@typescript-eslint/camelcase": "off",
-    "@typescript-eslint/class-name-casing": [
-      "error",
-      {
-        "allowUnderscorePrefix": true
-      }
-    ],
-    "unicorn/filename-case": [
-      "error",
-      {
-        "case": "camelCase"
-      }
-    ],
     "unicorn/prevent-abbreviations": [
       "error",
       {
         "replacements": {
-          "dest": false
+          "doc": false,
+          "pkg": false
         }
       }
     ]
