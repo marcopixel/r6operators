@@ -22,7 +22,7 @@
   },
   "alibi": {
     "name": "Alibi",
-    "role": "Attacker",
+    "role": "Defender",
     "unit": "GIS",
     "ratings": {
       "armor": 1,
