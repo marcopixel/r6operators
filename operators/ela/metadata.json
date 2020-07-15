@@ -1,0 +1,21 @@
+{
+  "name": "Ela",
+  "role": "Defender",
+  "unit": "GROM",
+  "ratings": {
+    "armor": 1,
+    "speed": 3,
+    "difficulty": 1
+  },
+  "meta": {
+    "sex": "f",
+    "country": "pl",
+    "season": "Y1S4",
+    "height": 173,
+    "weight": 68
+  },
+  "bio": {
+    "real_name": "Elzbieta Bosak",
+    "birthplace": "Wroclaw, Poland"
+  }
+}

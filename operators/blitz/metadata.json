@@ -1,0 +1,21 @@
+{
+  "name": "Blitz",
+  "role": "Attacker",
+  "unit": "GSG9",
+  "ratings": {
+    "armor": 2,
+    "speed": 2,
+    "difficulty": 3
+  },
+  "meta": {
+    "sex": "m",
+    "country": "de",
+    "season": "Y1S2",
+    "height": 175,
+    "weight": 75
+  },
+  "bio": {
+    "real_name": "Elias Kötz",
+    "birthplace": "Bremen, Germany"
+  }
+}
