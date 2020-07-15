@@ -1,8 +1,8 @@
 import path from "path";
 import { promises as fs } from "fs";
-import exec from "../util/exec";
+import SVGO from "svgo";
 
-import { ICON_DIR, OUTPUT_DIR, SVGO_OPTIONS } from "../config";
+import { ICON_DIR, OUTPUT_DIR } from "../config";
 
 export default async function optimizeSvg(iconObject: {}): Promise<void> {
   // inform user that script has started
@@ -31,8 +31,28 @@ export default async function optimizeSvg(iconObject: {}): Promise<void> {
       await fs.mkdir(outputPath, { recursive: true });
     });
 
-    // execute svgo command
-    await exec(`svgo -i ${inputFile} -o ${outputPath} ${SVGO_OPTIONS}`);
+    // create svgo instance
+    const icon = new SVGO({
+      plugins: [
+        { cleanupIDs: { prefix: `${op}-` } },
+        {
+          removeDimensions: true
+        },
+        {
+          convertPathData: true
+        },
+        {
+          removeRasterImages: false
+        }
+      ]
+    });
+
+    // read file & execute svgo
+    const sourceFile = await fs.readFile(inputFile, "utf-8");
+    const optimizedIcon = await icon.optimize(sourceFile);
+
+    // write optimized icon to output path
+    await fs.writeFile(path.resolve(outputPath, `${op}.svg`), optimizedIcon.data);
 
     // increase counter when finished and output it to the console
     outputCount += 1;
