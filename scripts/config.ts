@@ -8,7 +8,5 @@ const PNG_CONFIG = {
   height: 1500, // height in px
   width: 1500 // width in px
 };
-const SVGO_OPTIONS =
-  "--multipass --enable=removeDimensions --disable=convertPathData,removeRasterImages";
 
-export { ICON_DIR, SRC_DIR, OUTPUT_DIR, PNG_CONFIG, SVGO_OPTIONS };
+export { ICON_DIR, SRC_DIR, OUTPUT_DIR, PNG_CONFIG };
