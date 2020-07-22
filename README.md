@@ -46,7 +46,7 @@ r6operators.alibi;
 // {
 //   id: 'alibi',
 //   name: 'Alibi',
-//   role: 'Attacker',
+//   role: 'Defender',
 //   unit: 'GIS',
 //   ratings: { armor: 1, speed: 3, difficulty: 3 },
 //   meta: { sex: 'f', country: 'it', season: 'Y3S2', height: 171, weight: 63
