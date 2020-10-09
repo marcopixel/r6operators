@@ -4,7 +4,7 @@ import SVGO from "svgo";
 
 import { ICON_DIR, OUTPUT_DIR } from "../config";
 
-export default async function optimizeSvg(iconObject: {}): Promise<void> {
+export default async function optimizeSvg(iconObject: Record<string, unknown>): Promise<void> {
   // inform user that script has started
   console.log("Optimize SVG files...\n");
 
@@ -14,7 +14,7 @@ export default async function optimizeSvg(iconObject: {}): Promise<void> {
   const startTimer = process.hrtime();
 
   // map the icon object
-  const result = Object.keys(iconObject).map(async op => {
+  const result = Object.keys(iconObject).map(async (op) => {
     // set icon path + output path
     const inputFile = path.resolve(`${ICON_DIR}/${op}.svg`);
     const outputPath = path.resolve(`${OUTPUT_DIR}/svg/`);
@@ -36,15 +36,15 @@ export default async function optimizeSvg(iconObject: {}): Promise<void> {
       plugins: [
         { cleanupIDs: { prefix: `${op}-` } },
         {
-          removeDimensions: true
+          removeDimensions: true,
         },
         {
-          convertPathData: true
+          convertPathData: true,
         },
         {
-          removeRasterImages: false
-        }
-      ]
+          removeRasterImages: false,
+        },
+      ],
     });
 
     // read file & execute svgo
@@ -64,13 +64,13 @@ export default async function optimizeSvg(iconObject: {}): Promise<void> {
 
   // wait for all promises to finish
   await Promise.all(result)
-    .then(resolved => {
+    .then((resolved) => {
       console.info("\nFinished!");
       console.info(`Execution time: ${process.hrtime(startTimer)[0]} seconds`);
       console.log(`Output folder: ${OUTPUT_DIR}\n`);
       return resolved;
     })
-    .catch(error => {
+    .catch((error) => {
       throw error;
     });
 }

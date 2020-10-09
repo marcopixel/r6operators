@@ -8,8 +8,9 @@ type OperatorObject = Record<keyof typeof operatorJson, ReturnType<typeof Operat
 // create new object with the keys of the JSON object
 const output = Object.keys(operatorJson)
   // map the Operator() object to each item
-  .map(op => Operator(op, operatorJson[op]))
+  .map((op) => Operator(op, operatorJson[op]))
   // reassign the item with the id of the operator
+  // eslint-disable-next-line unicorn/no-reduce
   .reduce((object, op) => {
     object[op.id] = op;
     return object;

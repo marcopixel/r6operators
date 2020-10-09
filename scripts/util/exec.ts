@@ -6,7 +6,7 @@ import { exec as fsExec } from "child_process";
  * @param options - Object containing fsExec options (https://nodejs.org/api/child_process.html#child_process_child_process_exec_command_options_callback)
  * @returns Promise
  */
-export default function exec(command: string, options?: {}): Promise<unknown> {
+export default function exec(command: string, options?: Record<string, unknown>): Promise<unknown> {
   return new Promise((resolve, reject) => {
     fsExec(command, options, (error, stdout, stderr) => {
       if (error) {

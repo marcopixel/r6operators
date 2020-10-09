@@ -2,20 +2,20 @@ import path from "path";
 import { promises as fs } from "fs";
 import { OUTPUT_DIR, SRC_DIR } from "../config";
 
-export default function buildIconJson(iconObject: {}): Promise<string> {
+export default function buildIconJson(iconObject: Record<string, unknown>): Promise<string> {
   // inform user that script has started
   console.log("Building icons.json...\n");
 
   // map the icon object
-  const result = Object.keys(iconObject).map(op => {
+  const result = Object.keys(iconObject).map((op) => {
     // set name + file path of svg
     const name: string = op;
     const svgPath: string = path.resolve(`${OUTPUT_DIR}/svg/${op}.svg`);
     // read file to get SVG content
-    return fs.readFile(svgPath, "utf-8").then(output => {
+    return fs.readFile(svgPath, "utf-8").then((output) => {
       // create a new object
       const object = {
-        [name as string]: output // svg string
+        [name as string]: output, // svg string
       };
       // return new object to promise
       return object;
@@ -24,7 +24,7 @@ export default function buildIconJson(iconObject: {}): Promise<string> {
 
   // wait for all promises to finish
   return Promise.all(result)
-    .then(resolved => {
+    .then((resolved) => {
       // set output file path
       const outputPath = path.resolve(`${SRC_DIR}/icons.json`);
 
@@ -36,7 +36,7 @@ export default function buildIconJson(iconObject: {}): Promise<string> {
       console.log(`Successfully built ${outputPath}!\n`);
       return outputPath;
     })
-    .catch(error => {
+    .catch((error) => {
       throw error;
     });
 }

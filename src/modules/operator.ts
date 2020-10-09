@@ -22,7 +22,7 @@ export interface Operator extends IOperator {
    * @param userAttributes Object containing additional element attributes.
    * @returns String containing the SVG element.
    */
-  toSVG(userAttributes?: {}): string | Error;
+  toSVG(userAttributes?: Record<string, unknown>): string | Error;
 }
 
 /**
@@ -30,9 +30,9 @@ export interface Operator extends IOperator {
  * @param {Object} attributes - Object containing the attributes.
  * @returns {string}
  */
-function attributesToString(attributes: object): string {
+function attributesToString(attributes: Record<string, unknown>): string {
   return Object.keys(attributes)
-    .map(key => `${key}="${attributes[key]}"`)
+    .map((key) => `${key}="${attributes[key]}"`)
     .join(" ");
 }
 
@@ -41,12 +41,12 @@ export default function Operator(id: string, contents: IOperator): Operator {
   const $ = cheerio.load(`${iconData[id]}`);
   const attributes = {
     ...$("svg").get(0).attribs,
-    ...{ class: `r6operators r6operators-${id}` }
+    ...{ class: `r6operators r6operators-${id}` },
   };
 
   // create new icon object
   const icon = {
-    svg: { contents: $("svg").html(), attributes }
+    svg: { contents: $("svg").html(), attributes },
   };
 
   // eslint-disable-next-line unicorn/consistent-function-scoping
@@ -63,8 +63,8 @@ export default function Operator(id: string, contents: IOperator): Operator {
         class: classnames(
           this.svg.attributes.class,
           userAttributes === undefined ? "" : userAttributes.class
-        )
-      }
+        ),
+      },
     };
     // return as a SVG string
     return `<svg ${attributesToString(combinedAttributes)}>${this.svg.contents}</svg>`;
@@ -74,6 +74,6 @@ export default function Operator(id: string, contents: IOperator): Operator {
     id,
     ...contents,
     ...icon,
-    toSVG
+    toSVG,
   };
 }

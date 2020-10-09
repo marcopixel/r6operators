@@ -1,4 +1,5 @@
 /* eslint-disable unicorn/no-process-exit */
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 // @ts-nocheck
 import ops from "../src/operators.json";
 
@@ -17,7 +18,7 @@ async function main(): Promise<void> {
   await buildIconJson(ops);
 }
 
-main().catch(error => {
+main().catch((error) => {
   console.log(error);
   process.exit(1);
 });

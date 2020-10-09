@@ -13,12 +13,6 @@
   "rules": {
     "@typescript-eslint/interface-name-prefix": "off",
     "@typescript-eslint/camelcase": "off",
-    "@typescript-eslint/class-name-casing": [
-      "error",
-      {
-        "allowUnderscorePrefix": true
-      }
-    ],
     "unicorn/filename-case": [
       "error",
       {

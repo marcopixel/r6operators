@@ -8,26 +8,26 @@ const icon1 = Operator("hibana", {
   ratings: {
     armor: 1,
     speed: 3,
-    difficulty: 1
+    difficulty: 1,
   },
   meta: {
     sex: "f",
     country: "jp",
     season: "Y1S4",
     height: 173,
-    weight: 57
+    weight: 57,
   },
   bio: {
     real_name: "Yumiko Imagawa",
-    birthplace: "Nagoya, Japan"
-  }
+    birthplace: "Nagoya, Japan",
+  },
 });
 
 test("constructs icon object correctly", () => {
   expect(icon1).toMatchSnapshot({
     svg: {
-      contents: expect.any(String)
-    }
+      contents: expect.any(String),
+    },
   });
 });
 
