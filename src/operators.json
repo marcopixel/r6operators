@@ -189,7 +189,7 @@
     }
   },
   "capitao": {
-    "name": "Capitao",
+    "name": "Capitão",
     "role": "Attacker",
     "unit": "BOPE",
     "ratings": {
@@ -840,7 +840,7 @@
     }
   },
   "nokk": {
-    "name": "Nokk",
+    "name": "Nøkk",
     "role": "Attacker",
     "unit": "JAEGER CORPS",
     "ratings": {
