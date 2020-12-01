@@ -158,7 +158,7 @@
     "meta": {
       "sex": "m",
       "country": "de",
-      "season": "Y1S2",
+      "season": "Release",
       "height": 175,
       "weight": 75
     },
@@ -189,7 +189,7 @@
     }
   },
   "capitao": {
-    "name": "Capitao",
+    "name": "Capitão",
     "role": "Attacker",
     "unit": "BOPE",
     "ratings": {
@@ -347,7 +347,7 @@
     "meta": {
       "sex": "f",
       "country": "pl",
-      "season": "Y1S4",
+      "season": "Y2S4",
       "height": 173,
       "weight": 68
     },
@@ -557,7 +557,7 @@
     "meta": {
       "sex": "m",
       "country": "es",
-      "season": "Release",
+      "season": "Y2S1",
       "height": 190,
       "weight": 78
     },
@@ -840,7 +840,7 @@
     }
   },
   "nokk": {
-    "name": "Nokk",
+    "name": "Nøkk",
     "role": "Attacker",
     "unit": "JAEGER CORPS",
     "ratings": {
