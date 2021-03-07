@@ -1,5 +1,5 @@
 import cheerio from "cheerio";
-import classnames from "classnames";
+import clsx from "clsx";
 import { IOperator } from "../interfaces/operator";
 
 import iconData from "../icons.json";
@@ -60,7 +60,7 @@ export default function Operator(id: string, contents: IOperator): Operator {
       ...this.svg.attributes,
       ...userAttributes,
       ...{
-        class: classnames(
+        class: clsx(
           this.svg.attributes.class,
           userAttributes === undefined ? "" : userAttributes.class
         ),
