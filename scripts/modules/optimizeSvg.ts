@@ -1,6 +1,6 @@
 import path from "path";
 import { promises as fs } from "fs";
-import SVGO from "svgo";
+import { optimize, extendDefaultPlugins } from "svgo";
 
 import { ICON_DIR, OUTPUT_DIR } from "../config";
 
@@ -31,25 +31,28 @@ export default async function optimizeSvg(iconObject: Record<string, unknown>): 
       await fs.mkdir(outputPath, { recursive: true });
     });
 
-    // create svgo instance
-    const icon = new SVGO({
-      plugins: [
-        { cleanupIDs: { prefix: `${op}-` } },
+    const iconConfig = {
+      plugins: extendDefaultPlugins([
         {
-          removeDimensions: true,
+          name: "cleanupIDs",
+          params: { prefix: `${op}-` },
         },
         {
-          convertPathData: true,
+          name: "removeDimensions",
         },
         {
-          removeRasterImages: false,
+          name: "convertPathData",
         },
-      ],
-    });
+        {
+          name: "removeRasterImages",
+          active: false,
+        },
+      ]),
+    };
 
     // read file & execute svgo
     const sourceFile = await fs.readFile(inputFile, "utf-8");
-    const optimizedIcon = await icon.optimize(sourceFile);
+    const optimizedIcon = await optimize(sourceFile, { path: `${op}.svg`, ...iconConfig });
 
     // write optimized icon to output path
     await fs.writeFile(path.resolve(outputPath, `${op}.svg`), optimizedIcon.data);

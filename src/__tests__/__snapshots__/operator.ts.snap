@@ -24,6 +24,8 @@ Object {
   "svg": Object {
     "attributes": Object {
       "class": "r6operators r6operators-hibana",
+      "space": "preserve",
+      "style": "enable-background:new 0 0 350 350",
       "viewBox": "0 0 350 350",
       "xmlns": "http://www.w3.org/2000/svg",
     },
