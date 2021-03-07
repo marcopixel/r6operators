@@ -1,28 +1,28 @@
-import cheerio from "cheerio";
-import clsx from "clsx";
-import { IOperator } from "../interfaces/operator";
+import cheerio from "cheerio"
+import clsx from "clsx"
+import { IOperator } from "../interfaces/operator"
 
-import iconData from "../icons.json";
+import iconData from "../icons.json"
 
 export interface Operator extends IOperator {
   /** ID of the operator. */
-  id: string;
+  id: string
 
   /** SVG icon object. */
   svg: {
     /** SVG contents without HTML tags. */
-    contents: string;
+    contents: string
     /** SVG attributes as an object. */
     attributes: {
-      [key: string]: unknown;
-    };
-  };
+      [key: string]: unknown
+    }
+  }
   /**
    * Returns the current icon as an SVG string.
    * @param userAttributes Object containing additional element attributes.
    * @returns String containing the SVG element.
    */
-  toSVG(userAttributes?: Record<string, unknown>): string | Error;
+  toSVG(userAttributes?: Record<string, unknown>): string | Error
 }
 
 /**
@@ -33,27 +33,27 @@ export interface Operator extends IOperator {
 function attributesToString(attributes: Record<string, unknown>): string {
   return Object.keys(attributes)
     .map((key) => `${key}="${attributes[key]}"`)
-    .join(" ");
+    .join(" ")
 }
 
 export default function Operator(id: string, contents: IOperator): Operator {
   // get attributes + values of the SVG string
-  const $ = cheerio.load(`${iconData[id]}`);
+  const $ = cheerio.load(`${iconData[id]}`)
   const attributes = {
     ...$("svg").get(0).attribs,
     ...{ class: `r6operators r6operators-${id}` },
-  };
+  }
 
   // create new icon object
   const icon = {
     svg: { contents: $("svg").html(), attributes },
-  };
+  }
 
   // eslint-disable-next-line unicorn/consistent-function-scoping
   function toSVG(userAttributes?: { [key: string]: unknown }): string | Error {
     // check if parameter is an object
     if (userAttributes && typeof userAttributes !== "object") {
-      return new Error("The parameters are not supplied as an object.");
+      return new Error("The parameters are not supplied as an object.")
     }
     // create an object containing all attributes from the icon + user attributes
     const combinedAttributes = {
@@ -65,9 +65,9 @@ export default function Operator(id: string, contents: IOperator): Operator {
           userAttributes === undefined ? "" : userAttributes.class
         ),
       },
-    };
+    }
     // return as a SVG string
-    return `<svg ${attributesToString(combinedAttributes)}>${this.svg.contents}</svg>`;
+    return `<svg ${attributesToString(combinedAttributes)}>${this.svg.contents}</svg>`
   }
 
   return {
@@ -75,5 +75,5 @@ export default function Operator(id: string, contents: IOperator): Operator {
     ...contents,
     ...icon,
     toSVG,
-  };
+  }
 }

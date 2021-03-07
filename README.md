@@ -1,6 +1,5 @@
 ![r6operators Header Image](https://i.imgur.com/1qhhXYK.png)
 
-
 # r6operators
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/marcopixel/r6operators.svg?style=for-the-badge)
@@ -15,6 +14,7 @@ This project started as way for people to get high-resolution operator icons for
 > **Note**: This project is the successor of r6-operatoricons and the old repo was repurposed to the website, please send any icon requests or issues with the package in this repo only.
 
 [https://r6operators.marcopixel.eu/](https://r6operators.marcopixel.eu/)
+
 ```shell
 npm install r6operators
 ```
@@ -32,17 +32,17 @@ npm install r6operators
 ##### 2. Require it
 
 ```js
-const r6operators = require("r6operators");
+const r6operators = require("r6operators")
 
-import r6operators from "r6operators"; // ES6 imports
+import r6operators from "r6operators" // ES6 imports
 ```
 
 ##### 3. Use it
 
 ```js
-const r6operators = require("r6operators");
+const r6operators = require("r6operators")
 
-r6operators.alibi;
+r6operators.alibi
 // {
 //   id: 'alibi',
 //   name: 'Alibi',
@@ -63,10 +63,10 @@ r6operators.alibi;
 //   toSVG: [Function]
 // }
 
-r6operators.alibi.toSVG();
+r6operators.alibi.toSVG()
 // <svg class="r6operators r6operators-alibi" ... >...</svg>
 
-r6operators.alibi.toSVG({ class: "large", "stroke-width": 2, color: "red" });
+r6operators.alibi.toSVG({ class: "large", "stroke-width": 2, color: "red" })
 // <svg class="r6operators r6operators-alibi large" stroke-width="2" color="red" ... >...</svg>
 ```
 
@@ -85,7 +85,7 @@ An object containing all data about the operator, including icons.
 ##### Example:
 
 ```js
-r6operators.alibi;
+r6operators.alibi
 // {
 //   id: 'alibi',
 //   name: 'Alibi',
@@ -106,7 +106,7 @@ r6operators.alibi;
 //   toSVG: [Function]
 // }
 
-r6operators.alibi.unit.toString();
+r6operators.alibi.unit.toString()
 // GIS
 ```
 
@@ -123,13 +123,13 @@ Returns an SVG string of the operator icon.
 | `attrs` (optional) | Object | Key-value pairs in the `attrs` object will be mapped to HTML attributes on the `<svg>` tag (e.g. `{ foo: 'bar' }` maps to `foo="bar"`). All default attributes on the `<svg>` tag can be overridden with the `attrs` object. |
 
 ```js
-r6operators.alibi.toSVG();
+r6operators.alibi.toSVG()
 // <svg class="r6operators r6operators-alibi" ... >...</svg>
 
-r6operators.alibi.toSVG({ class: "large" });
+r6operators.alibi.toSVG({ class: "large" })
 // <svg class="r6operators r6operators-alibi large" ... >...</svg>
 
-r6operators.alibi.toSVG({ "stroke-width": 2, color: "red" });
+r6operators.alibi.toSVG({ "stroke-width": 2, color: "red" })
 // <svg class="r6operators r6operators-alibi" stroke-width="2" color="red" ... >...</svg>
 ```
 

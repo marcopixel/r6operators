@@ -1,4 +1,4 @@
-import { exec as fsExec } from "child_process";
+import { exec as fsExec } from "child_process"
 
 /**
  * Executes a command and returns a promise of it's Out/Error buffers
@@ -9,11 +9,7 @@ import { exec as fsExec } from "child_process";
 export default function exec(command: string, options?: Record<string, unknown>): Promise<unknown> {
   return new Promise((resolve, reject) => {
     fsExec(command, options, (error, stdout, stderr) => {
-      if (error) {
-        return reject(error);
-      } else {
-        return resolve([stdout, stderr]);
-      }
-    });
-  });
+      return error ? reject(error) : resolve([stdout, stderr])
+    })
+  })
 }

@@ -1,5 +1,5 @@
 /* eslint-disable import/no-named-as-default */
-import Operator from "../modules/operator";
+import Operator from "../modules/operator"
 
 const icon1 = Operator("hibana", {
   name: "Hibana",
@@ -21,16 +21,16 @@ const icon1 = Operator("hibana", {
     real_name: "Yumiko Imagawa",
     birthplace: "Nagoya, Japan",
   },
-});
+})
 
 test("constructs icon object correctly", () => {
   expect(icon1).toMatchSnapshot({
     svg: {
       contents: expect.any(String),
     },
-  });
-});
+  })
+})
 
 test("toString() returns correct string", () => {
-  expect(icon1.name.toString()).toMatchSnapshot();
-});
+  expect(icon1.name.toString()).toMatchSnapshot()
+})

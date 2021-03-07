@@ -33,11 +33,11 @@
   ],
   "scripts": {
     "build": "npm-run-all clean build:icons build:ts",
-    "build:icons": "ts-node ./scripts/buildIcons.ts",
+    "build:icons": "ts-node ./scripts/build-icons.ts",
     "build:ts": "tsc",
     "clean": "npx rimraf lib src/icons.json",
     "lint": "eslint **/*.{js,ts} --ignore-path .gitignore",
-    "format": "prettier **/* --ignore-path .gitignore --check --write",
+    "format": "prettier **/* --check --write",
     "test": "jest",
     "type-check": "tsc --noEmit"
   },
