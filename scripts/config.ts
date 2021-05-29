@@ -1,3 +1,4 @@
+/* eslint-disable unicorn/prefer-node-protocol, unicorn/prefer-module */
 import path from "path"
 
 const ICON_DIR = path.join(__dirname, `../icons/`)

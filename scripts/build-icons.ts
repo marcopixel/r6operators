@@ -1,5 +1,4 @@
-/* eslint-disable unicorn/no-process-exit */
-/* eslint-disable @typescript-eslint/ban-ts-comment */
+/* eslint-disable unicorn/no-process-exit, unicorn/prefer-node-protocol, @typescript-eslint/ban-ts-comment */
 // @ts-nocheck
 import ops from "../src/operators.json"
 

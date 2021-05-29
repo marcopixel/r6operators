@@ -1,3 +1,4 @@
+/* eslint-disable unicorn/prefer-node-protocol */
 import { exec as fsExec } from "child_process"
 
 /**

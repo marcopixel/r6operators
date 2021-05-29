@@ -1,3 +1,4 @@
+/* eslint-disable unicorn/prefer-node-protocol */
 import path from "path"
 import sharp from "sharp"
 import { promises as fs } from "fs"
