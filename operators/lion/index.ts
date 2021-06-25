@@ -1,0 +1,23 @@
+import { Operator } from "~/types/Operator"
+
+export const lion: Operator = {
+  name: "Lion",
+  role: "Attacker",
+  unit: "CBRN",
+  ratings: {
+    armor: 2,
+    speed: 2,
+    difficulty: 1,
+  },
+  meta: {
+    sex: "m",
+    country: "fr",
+    season: "Y3S1",
+    height: 185,
+    weight: 87,
+  },
+  bio: {
+    real_name: "Olivier Flament",
+    birthplace: "Toulouse, France",
+  },
+}
