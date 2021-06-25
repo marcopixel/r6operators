@@ -146,7 +146,3 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/node,windows,visualstudiocode
-
-### r6operators ###
-src/icons.json
-lib

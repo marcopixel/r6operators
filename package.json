@@ -1,6 +1,6 @@
 {
   "name": "r6operators",
-  "version": "1.6.0",
+  "version": "2.0.0",
   "description": "r6operators is a collection of high-quality vectorized Rainbow Six: Siege Operator icons & metadata for Node.js",
   "keywords": [
     "rainbow six siege",
@@ -19,7 +19,7 @@
     "url": "https://github.com/marcopixel/r6operators.git"
   },
   "license": "MIT",
-  "author": "Marco Vockner <marcopixel@live.de>",
+  "author": "Marco Vockner <me@marcovockner.dev>",
   "contributors": [
     "dtSniper (https://twitter.com/sniperdt)",
     "Joey Foo (https://github.com/joeyfoo)",
@@ -37,7 +37,7 @@
     "build:ts": "tsc",
     "clean": "npx rimraf lib src/icons.json",
     "lint": "eslint **/*.{js,ts} --ignore-path .gitignore",
-    "format": "prettier **/* --check --write",
+    "format": "prettier **/* --ignore-path .gitignore --check --write",
     "test": "jest",
     "type-check": "tsc --noEmit",
     "prepare": "husky install"
@@ -48,28 +48,17 @@
     "npm-run-all": "^4.1.5"
   },
   "devDependencies": {
-    "@types/cheerio": "^0.22.24",
-    "@types/jest": "^26.0.20",
-    "@types/node": "^15.6.1",
-    "@types/sharp": "^0.28.2",
-    "@typescript-eslint/eslint-plugin": "^4.16.1",
-    "@typescript-eslint/parser": "^4.16.1",
-    "eslint": "^7.21.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-unicorn": "^32.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "esbuild": "^0.12.2",
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-unicorn": "^33.0.1",
     "husky": "^6.0.0",
     "jest": "^27.0.2",
     "lint-staged": "^11.0.0",
-    "prettier": "^2.2.1",
-    "sharp": "^0.28.3",
-    "svgo": "^2.2.1",
-    "ts-jest": "^27.0.1",
+    "prettier": "^2.3.0",
     "ts-node": "^10.0.0",
-    "typescript": "^4.2.3"
-  },
-  "lint-staged": {
-    "*.{js,ts}": "eslint --cache --fix",
-    "*.--write": "prettier --write"
+    "typescript": "^4.3.2"
   }
 }
