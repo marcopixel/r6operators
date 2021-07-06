@@ -18,6 +18,6 @@ export const thatcher: Operator = {
   },
   bio: {
     real_name: "Mike Baker",
-    birthplace: "BiDefenderord, England",
+    birthplace: "Bideford, England",
   },
 }

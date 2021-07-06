@@ -17,7 +17,7 @@ export const doc: Operator = {
     weight: 79,
   },
   bio: {
-    real_name: "Morowa Evans",
+    real_name: "Gustave Kateb",
     birthplace: "Paris, France",
   },
 }
