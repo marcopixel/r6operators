@@ -10,7 +10,7 @@ export const capitao: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "br",
     season: "Y1S3",
     height: 180,

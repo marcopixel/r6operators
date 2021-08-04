@@ -10,7 +10,7 @@ export const lion: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "fr",
     season: "Y3S1",
     height: 185,

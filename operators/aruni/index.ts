@@ -10,7 +10,7 @@ export const aruni: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "th",
     season: "Y5S4",
     height: 160,

@@ -10,7 +10,7 @@ export const sledge: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "uk",
     season: "Release",
     height: 192,

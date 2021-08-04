@@ -10,7 +10,7 @@ export const mozzie: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "au",
     season: "Y4S1",
     height: 162,

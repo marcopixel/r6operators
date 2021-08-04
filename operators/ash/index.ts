@@ -10,7 +10,7 @@ export const ash: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "us",
     season: "Release",
     height: 170,

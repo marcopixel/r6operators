@@ -10,7 +10,7 @@ export const maestro: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "it",
     season: "Y3S2",
     height: 185,

@@ -10,7 +10,7 @@ export const jackal: Operator = {
     difficulty: 3,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "es",
     season: "Y2S1",
     height: 190,

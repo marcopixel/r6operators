@@ -10,7 +10,7 @@ export const kali: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "in",
     season: "Y4S4",
     height: 170,

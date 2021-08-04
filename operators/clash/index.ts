@@ -10,7 +10,7 @@ export const clash: Operator = {
     difficulty: 3,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "uk",
     season: "Y3S3",
     height: 179,

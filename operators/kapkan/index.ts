@@ -10,7 +10,7 @@ export const kapkan: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "ru",
     season: "Release",
     height: 180,

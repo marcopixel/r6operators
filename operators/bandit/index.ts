@@ -10,7 +10,7 @@ export const bandit: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "de",
     season: "Release",
     height: 180,

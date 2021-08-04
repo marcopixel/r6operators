@@ -10,7 +10,7 @@ export const nomad: Operator = {
     difficulty: 3,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "ma",
     season: "Y3S4",
     height: 171,

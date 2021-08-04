@@ -10,7 +10,7 @@ export const nokk: Operator = {
     difficulty: 3,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "dk",
     season: "Y4S2",
     height: 0,

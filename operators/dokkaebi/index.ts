@@ -10,7 +10,7 @@ export const dokkaebi: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "sk",
     season: "Y2S4",
     height: 169,

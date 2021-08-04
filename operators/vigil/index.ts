@@ -10,7 +10,7 @@ export const vigil: Operator = {
     difficulty: 3,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "sk",
     season: "Y2S4",
     height: 173,

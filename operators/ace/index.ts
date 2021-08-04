@@ -10,7 +10,7 @@ export const ace: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "no",
     season: "Y5S2",
     height: 187,

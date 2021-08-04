@@ -10,7 +10,7 @@ export const hibana: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "jp",
     season: "Y1S4",
     height: 173,

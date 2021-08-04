@@ -10,7 +10,7 @@ export const goyo: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "mx",
     season: "Y4S3",
     height: 171,

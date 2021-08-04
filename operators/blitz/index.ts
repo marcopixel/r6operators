@@ -10,7 +10,7 @@ export const blitz: Operator = {
     difficulty: 3,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "de",
     season: "Release",
     height: 175,

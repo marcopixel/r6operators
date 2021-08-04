@@ -10,7 +10,7 @@ export const zofia: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "pl",
     season: "Y2S4",
     height: 179,

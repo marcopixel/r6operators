@@ -10,7 +10,7 @@ export const valkyrie: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "us",
     season: "Y1S2",
     height: 170,

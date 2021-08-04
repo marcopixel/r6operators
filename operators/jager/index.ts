@@ -10,7 +10,7 @@ export const jager: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "de",
     season: "Release",
     height: 180,

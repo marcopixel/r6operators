@@ -10,7 +10,7 @@ export const wamai: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "ke",
     season: "Y4S4",
     height: 187,

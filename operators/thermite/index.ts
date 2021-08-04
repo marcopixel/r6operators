@@ -10,7 +10,7 @@ export const thermite: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "us",
     season: "Release",
     height: 178,

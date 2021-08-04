@@ -10,7 +10,7 @@ export const smoke: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "uk",
     season: "Release",
     height: 173,

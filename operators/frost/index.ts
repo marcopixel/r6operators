@@ -10,7 +10,7 @@ export const frost: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "ca",
     season: "Y1S1",
     height: 172,

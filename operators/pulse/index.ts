@@ -10,7 +10,7 @@ export const pulse: Operator = {
     difficulty: 3,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "us",
     season: "Release",
     height: 188,

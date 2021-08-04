@@ -10,7 +10,7 @@ export const caveira: Operator = {
     difficulty: 3,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "br",
     season: "Y1S3",
     height: 155,

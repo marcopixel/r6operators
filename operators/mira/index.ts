@@ -10,7 +10,7 @@ export const mira: Operator = {
     difficulty: 3,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "es",
     season: "Y2S1",
     height: 165,

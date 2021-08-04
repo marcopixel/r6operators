@@ -10,7 +10,7 @@ export const echo: Operator = {
     difficulty: 3,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "jp",
     season: "Y1S4",
     height: 180,

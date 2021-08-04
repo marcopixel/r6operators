@@ -10,7 +10,7 @@ export const rook: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "fr",
     season: "Release",
     height: 175,

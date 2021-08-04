@@ -10,7 +10,7 @@ export const flores: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "ar",
     season: "Y6S1",
     height: 181,

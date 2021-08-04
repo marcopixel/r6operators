@@ -10,7 +10,7 @@ export const alibi: Operator = {
     difficulty: 3,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "it",
     season: "Y3S2",
     height: 171,

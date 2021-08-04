@@ -8,7 +8,7 @@ export interface Operator {
   role: "Attacker" | "Defender" | "Recruit"
   /** Shortened name of the operator's unit */
   unit: string
-  /** Object containing the armor & speed ratings. */
+  /** Object containing the armor, speed and difficulty ratings. */
   ratings?: OperatorRatings
   /** Object containing metadata of the operator. */
   meta?: OperatorMeta
@@ -26,16 +26,23 @@ interface OperatorRatings {
 }
 
 interface OperatorMeta {
-  /** Sex of the operator.
+  /** Gender of the operator.
    *
-   *  Possible values are `m` or `f`.
+   *  Possible values are:
+   *  ```
+   *  'm' - Male
+   *  'f' - Female
+   *  'o' - Other
+   *  'n' - None/Not applicable
+   *  'u' - Unknown
+   *  ```
    */
-  sex: "m" | "f"
+  gender: "m" | "f" | "o" | "n" | "u"
   /** Country of the operator as a ISO 3166-1 alpha-2 code (two-letter).
    * @link https://wikipedia.org/wiki/ISO_3166-1_alpha-2
    */
   country: string
-  /** Season when the operator was added to the game.
+  /** Season shorthandle when the operator was first introduced to the game.
    *
    *  As example, `Y1S1` for Year 1 Season 1.
    */

@@ -10,7 +10,7 @@ export const blackbeard: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "us",
     season: "Y1S2",
     height: 180,

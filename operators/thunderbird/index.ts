@@ -10,7 +10,7 @@ export const thunderbird: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "ca",
     season: "Y6S2",
     height: 172,

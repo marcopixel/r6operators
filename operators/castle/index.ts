@@ -10,7 +10,7 @@ export const castle: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "us",
     season: "Release",
     height: 185,

@@ -10,7 +10,7 @@ export const melusi: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "sa",
     season: "Y5S2",
     height: 172,

@@ -10,7 +10,7 @@ export const iq: Operator = {
     difficulty: 3,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "de",
     season: "Release",
     height: 175,

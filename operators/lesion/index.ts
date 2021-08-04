@@ -10,7 +10,7 @@ export const lesion: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "hk",
     season: "Y2S3",
     height: 174,

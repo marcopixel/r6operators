@@ -10,7 +10,7 @@ export const zero: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "us",
     season: "Y5S3",
     height: 178,

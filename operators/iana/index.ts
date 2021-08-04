@@ -10,7 +10,7 @@ export const iana: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "nl",
     season: "Y5S1",
     height: 157,

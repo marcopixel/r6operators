@@ -10,7 +10,7 @@ export const finka: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "ru",
     season: "Y3S1",
     height: 171,

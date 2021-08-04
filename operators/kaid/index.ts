@@ -10,7 +10,7 @@ export const kaid: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "ma",
     season: "Y3S4",
     height: 195,

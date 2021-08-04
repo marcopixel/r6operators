@@ -10,7 +10,7 @@ export const oryx: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "jo",
     season: "Y5S1",
     height: 195,

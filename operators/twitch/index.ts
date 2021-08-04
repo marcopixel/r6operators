@@ -10,7 +10,7 @@ export const twitch: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "fr",
     season: "Release",
     height: 168,

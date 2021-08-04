@@ -10,7 +10,7 @@ export const maverick: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "us",
     season: "Y3S3",
     height: 180,

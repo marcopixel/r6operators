@@ -10,7 +10,7 @@ export const amaru: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "pe",
     season: "Y4S3",
     height: 189,

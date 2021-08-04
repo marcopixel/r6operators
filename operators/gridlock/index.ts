@@ -10,7 +10,7 @@ export const gridlock: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "au",
     season: "Y4S1",
     height: 171,

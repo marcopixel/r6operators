@@ -10,7 +10,7 @@ export const ying: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "f",
+    gender: "f",
     country: "hk",
     season: "Y2S3",
     height: 160,

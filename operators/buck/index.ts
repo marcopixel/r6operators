@@ -10,7 +10,7 @@ export const buck: Operator = {
     difficulty: 1,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "ca",
     season: "Y1S1",
     height: 178,

@@ -10,7 +10,7 @@ export const warden: Operator = {
     difficulty: 2,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "us",
     season: "Y4S2",
     height: 173,

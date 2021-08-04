@@ -10,7 +10,7 @@ export const montagne: Operator = {
     difficulty: 3,
   },
   meta: {
-    sex: "m",
+    gender: "m",
     country: "fr",
     season: "Release",
     height: 190,
