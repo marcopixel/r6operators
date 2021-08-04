@@ -6,10 +6,11 @@
     "moduleResolution": "node",
     "declaration": true,
     "sourceMap": true,
-    "rootDir": "./src",
-    "outDir": "./lib",
     "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    },
   },
-  "exclude": ["scripts", "dist", "lib", "src/__tests__"]
 }
