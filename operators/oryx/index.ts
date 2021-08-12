@@ -1,6 +1,6 @@
-import { Operator } from "~/types/Operator"
+import { IOperator } from "~/types/Operator"
 
-export const oryx: Operator = {
+export const oryx: IOperator = {
   name: "Oryx",
   role: "Defender",
   unit: "UNAFFILIATED",

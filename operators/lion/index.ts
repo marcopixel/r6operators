@@ -1,6 +1,6 @@
-import { Operator } from "~/types/Operator"
+import { IOperator } from "~/types/Operator"
 
-export const lion: Operator = {
+export const lion: IOperator = {
   name: "Lion",
   role: "Attacker",
   unit: "CBRN",

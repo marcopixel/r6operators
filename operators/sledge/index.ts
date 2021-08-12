@@ -1,6 +1,6 @@
-import { Operator } from "~/types/Operator"
+import { IOperator } from "~/types/Operator"
 
-export const sledge: Operator = {
+export const sledge: IOperator = {
   name: "Sledge",
   role: "Attacker",
   unit: "SAS",

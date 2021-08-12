@@ -1,6 +1,6 @@
-import { Operator } from "~/types/Operator"
+import { IOperator } from "~/types/Operator"
 
-export const pulse: Operator = {
+export const pulse: IOperator = {
   name: "Pulse",
   role: "Defender",
   unit: "FBI",

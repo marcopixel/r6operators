@@ -1,6 +1,6 @@
-import { Operator } from "~/types/Operator"
+import { IOperator } from "~/types/Operator"
 
-export const echo: Operator = {
+export const echo: IOperator = {
   name: "Echo",
   role: "Defender",
   unit: "SAT",

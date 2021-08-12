@@ -1,6 +1,6 @@
-import { Operator } from "~/types/Operator"
+import { IOperator } from "~/types/Operator"
 
-export const dokkaebi: Operator = {
+export const dokkaebi: IOperator = {
   name: "Dokkaebi",
   role: "Attacker",
   unit: "SMB",

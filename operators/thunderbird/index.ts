@@ -1,6 +1,6 @@
-import { Operator } from "~/types/Operator"
+import { IOperator } from "~/types/Operator"
 
-export const thunderbird: Operator = {
+export const thunderbird: IOperator = {
   name: "Thunderbird",
   role: "Defender",
   unit: "UNAFFILIATED",

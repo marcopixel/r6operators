@@ -1,6 +1,6 @@
-import { Operator } from "~/types/Operator"
+import { IOperator } from "~/types/Operator"
 
-export const kali: Operator = {
+export const kali: IOperator = {
   name: "Kali",
   role: "Attacker",
   unit: "NIGHTHAVEN",

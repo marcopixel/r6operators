@@ -1,6 +1,6 @@
-import { Operator } from "~/types/Operator"
+import { IOperator } from "~/types/Operator"
 
-export const thermite: Operator = {
+export const thermite: IOperator = {
   name: "Thermite",
   role: "Attacker",
   unit: "FBI",

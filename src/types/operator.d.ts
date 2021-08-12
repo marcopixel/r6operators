@@ -1,4 +1,4 @@
-export interface Operator {
+export interface IOperator {
   /** Readable name of the operator */
   name: string
   /** Role of the operator.
@@ -9,14 +9,14 @@ export interface Operator {
   /** Shortened name of the operator's unit */
   unit: string
   /** Object containing the armor, speed and difficulty ratings. */
-  ratings?: OperatorRatings
+  ratings?: IOperatorRatings
   /** Object containing metadata of the operator. */
-  meta?: OperatorMeta
+  meta?: IOperatorMeta
   /** Object containing biography of the operator. */
-  bio?: OperatorBio
+  bio?: IOperatorBio
 }
 
-interface OperatorRatings {
+interface IOperatorRatings {
   /** Armor rating as a number between `1` and `3` */
   armor: number
   /** Speed rating as a number between `1` and `3` */
@@ -25,7 +25,7 @@ interface OperatorRatings {
   difficulty: number
 }
 
-interface OperatorMeta {
+interface IOperatorMeta {
   /** Gender of the operator.
    *
    *  Possible values are:
@@ -53,9 +53,24 @@ interface OperatorMeta {
   weight: number
 }
 
-interface OperatorBio {
+interface IOperatorBio {
   /** Real name of the operator. */
   real_name: string
   /** Birthplace of the operator, including the country.*/
   birthplace: string
+}
+
+export interface Operator extends IOperator {
+  /** ID of the operator. */
+  id: string
+
+  /** SVG icon object. */
+  svg: {
+    /** SVG contents without HTML tags. */
+    contents: string
+    /** SVG attributes as an object. */
+    attributes: {
+      [key: string]: unknown
+    }
+  }
 }

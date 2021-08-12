@@ -1,6 +1,6 @@
-import { Operator } from "~/types/Operator"
+import { IOperator } from "~/types/Operator"
 
-export const gridlock: Operator = {
+export const gridlock: IOperator = {
   name: "Gridlock",
   role: "Attacker",
   unit: "SASR",
