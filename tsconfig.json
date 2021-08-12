@@ -1,16 +1,24 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "ES5",
+    "target": "ESNext",
     "lib": ["ESNext"],
     "moduleResolution": "node",
     "declaration": true,
+    "declarationDir": "dist/dts",
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
+    "rootDir": ".",
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./src/*"]
-    },
+      "~/*": ["./src/*"],
+      "@operators/*": ["./operators/*"],
+      "@temp/*": ["./temp/*"]
+    }
   },
+  "ts-node": {
+    "require": ["tsconfig-paths/register"],
+    "files": true
+  }
 }

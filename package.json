@@ -25,19 +25,29 @@
     "Joey Foo (https://github.com/joeyfoo)",
     "Lars Brix (https://github.com/LaxisB)"
   ],
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.mjs",
+  "types": "dist/esm/index.d.ts",
   "scripts": {
+    "build": "ts-node ./scripts/build.ts",
+    "lint": "eslint **/*.{js,ts} --ignore-path .gitignore",
+    "format": "prettier **/* --ignore-path .gitignore --check --write",
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@types/node": "^16.4.13",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
     "@typescript-eslint/parser": "^4.26.0",
-    "esbuild": "^0.12.2",
+    "cheerio": "^1.0.0-rc.10",
     "eslint": "^7.28.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-unicorn": "^35.0.0",
     "husky": "^7.0.1",
     "lint-staged": "^11.0.0",
     "micromatch": "^4.0.4",
-    "prettier": "^2.3.0"
+    "prettier": "^2.3.0",
+    "stringify-object": "^3.3.0",
+    "svgo": "^2.3.1",
+    "tsconfig-paths": "^3.10.1"
   }
 }
