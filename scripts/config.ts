@@ -11,16 +11,41 @@ const DECLARATION_FILE = path.resolve("./src/types/index.d.ts")
 const SVGO_PLUGINS: Plugin[] = [
   // "cleanupIDs" plugin is added at the build-optimized-svg script directly
   // to prevent gradient id clash (it will add the operator id as prefix)
-  {
-    name: "removeDimensions",
-  },
-  {
-    name: "convertPathData",
-  },
-  {
-    name: "removeRasterImages",
-    active: false,
-  },
+  "removeDoctype",
+  "removeXMLProcInst",
+  "removeComments",
+  "removeMetadata",
+  "removeEditorsNSData",
+  "cleanupAttrs",
+  "mergeStyles",
+  "inlineStyles",
+  "minifyStyles",
+  "cleanupIDs",
+  "removeUselessDefs",
+  "cleanupNumericValues",
+  "convertColors",
+  "removeUnknownsAndDefaults",
+  "removeNonInheritableGroupAttrs",
+  "removeUselessStrokeAndFill",
+  "removeViewBox",
+  "cleanupEnableBackground",
+  "removeHiddenElems",
+  "removeEmptyText",
+  "convertShapeToPath",
+  "convertEllipseToCircle",
+  "moveElemsAttrsToGroup",
+  "moveGroupAttrsToElems",
+  "collapseGroups",
+  "convertPathData",
+  "convertTransform",
+  "removeEmptyAttrs",
+  "removeEmptyContainers",
+  "mergePaths",
+  "removeUnusedNS",
+  "sortDefsChildren",
+  "removeTitle",
+  "removeDesc",
+  "removeDimensions",
 ]
 
 export { OPS_DIR, TEMP_DIR, DIST_DIR, ENTRY_FILE, DECLARATION_FILE, SVGO_PLUGINS }

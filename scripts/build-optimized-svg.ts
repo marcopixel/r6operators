@@ -27,15 +27,18 @@ export async function buildOptimizedSVG(): Promise<void> {
 
     // optimize svg with svgo
     const svgoConfig: OptimizeOptions = {
-      plugins: extendDefaultPlugins([
+      plugins: [
+        // override default preset
+        "preset-default",
+        // enable plugins
         ...SVGO_PLUGINS,
         {
           name: "cleanupIDs",
           params: { prefix: `${op}-` },
         },
-      ]),
+      ],
     }
-    const optimized = optimize(sourceFile, { path: `${op}.svg`, ...svgoConfig })
+    const optimized = optimize(sourceFile, { multipass: true, path: `${op}.svg`, ...svgoConfig })
 
     // write optimized icon to disk
     await fs.writeFile(`${TEMP_DIR}/svg/${op}.svg`, optimized.data)
