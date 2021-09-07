@@ -35,18 +35,18 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@types/node": "^16.4.13",
-    "@typescript-eslint/eslint-plugin": "^4.26.0",
-    "@typescript-eslint/parser": "^4.26.0",
+    "@types/node": "^16.7.13",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
     "cheerio": "^1.0.0-rc.10",
     "eslint": "^7.28.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-unicorn": "^35.0.0",
-    "husky": "^7.0.1",
-    "lint-staged": "^11.0.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
     "micromatch": "^4.0.4",
     "prettier": "^2.3.0",
-    "stringify-object": "^3.3.0",
+    "stringify-object": "^4.0.0",
     "svgo": "^2.4.0",
     "tsconfig-paths": "^3.10.1"
   }
