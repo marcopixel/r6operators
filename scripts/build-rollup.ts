@@ -1,11 +1,11 @@
+import { promises as fs } from "fs"
 import { rollup } from "rollup"
 import { ENTRY_FILE, DIST_DIR } from "./config"
 
 import ts from "rollup-plugin-ts"
-import dts from "rollup-plugin-dts"
 import analyze from "rollup-plugin-analyzer"
-import { typescriptPaths } from "rollup-plugin-typescript-paths"
 import { terser } from "rollup-plugin-terser"
+import { generateDtsBundle } from "dts-bundle-generator"
 
 // build ts
 export async function buildBundle(): Promise<void> {
@@ -32,18 +32,18 @@ export async function buildBundle(): Promise<void> {
     file: `${DIST_DIR}/index.js`,
     format: "cjs",
     sourcemap: true,
-    exports: "auto",
+    exports: "named",
   })
   await bundle.write({
     file: `${DIST_DIR}/index.mjs`,
     format: "esm",
     sourcemap: true,
-    exports: "auto",
+    exports: "named",
   })
   await bundle.write({
     file: `${DIST_DIR}/index.min.js`,
     format: "umd",
-    exports: "auto",
+    exports: "named",
     name: "r6operators",
     sourcemap: true,
     plugins: [terser()],
@@ -54,11 +54,17 @@ export async function buildBundle(): Promise<void> {
 
 // build type declarations
 export async function buildDts(): Promise<void> {
-  const bundle = await rollup({
-    input: ENTRY_FILE,
-    plugins: [typescriptPaths({ preserveExtensions: true }), dts()],
+  const bundle = generateDtsBundle([
+    { filePath: ENTRY_FILE, output: { umdModuleName: "r6operators" } },
+  ])
+
+  // check if folder exists and create if not
+  await fs.stat(`${DIST_DIR}`).catch(async () => {
+    await fs.mkdir(`${DIST_DIR}`, { recursive: true })
   })
 
+  // write bundle to file
+  await fs.writeFile(`${DIST_DIR}/index.d.ts`, bundle.toString())
+
   console.log(`Successfully created type declarations!\n`)
-  await bundle.write({ file: `${DIST_DIR}/index.d.ts`, format: "es" })
 }
