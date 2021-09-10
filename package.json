@@ -57,5 +57,8 @@
     "stringify-object": "^3.3.0",
     "svgo": "^2.4.0",
     "tsconfig-paths": "^3.10.1"
-  }
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }
