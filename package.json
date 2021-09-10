@@ -31,6 +31,9 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "ts-node ./scripts/build.ts",
+    "build:optimizeicons": "ts-node ./scripts/build-optimized-svg.ts",
+    "build:iconmodules": "ts-node ./scripts/build-icon-modules.ts",
+    "build:rollup": "ts-node ./scripts/build.ts",
     "lint": "eslint **/*.{js,ts} --ignore-path .gitignore",
     "format": "prettier **/* --ignore-path .gitignore --check --write",
     "prepare": "husky install"

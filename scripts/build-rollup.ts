@@ -1,3 +1,4 @@
+/* eslint-disable unicorn/no-process-exit */
 import { promises as fs } from "fs"
 import { rollup } from "rollup"
 
@@ -70,3 +71,11 @@ export async function buildDts(): Promise<void> {
 
   console.log(`Successfully created type declarations!\n`)
 }
+
+// execute if file is called directly
+buildBundle()
+  .then(() => buildDts())
+  .catch((error) => {
+    console.log(error)
+    process.exit(1)
+  })

@@ -1,3 +1,4 @@
+/* eslint-disable unicorn/no-process-exit */
 import path from "path"
 import cheerio from "cheerio"
 import stringifyObject from "stringify-object"
@@ -84,3 +85,9 @@ export async function buildIconModules(): Promise<void> {
   fs.copyFile(`${OPS_DIR}/index.ts`, `${TEMP_DIR}/modules/index.ts`)
   console.log(`Successfully generated ${counter} modules!\n`)
 }
+
+// execute if file is called directly
+buildIconModules().catch((error) => {
+  console.log(error)
+  process.exit(1)
+})
