@@ -48,7 +48,7 @@ export async function buildBundle(): Promise<void> {
     file: pkg.unpkg,
     format: "umd",
     exports: "named",
-    name: "r6operators",
+    name: pkg.name,
     sourcemap: true,
     plugins: [terser()],
   })
@@ -58,9 +58,7 @@ export async function buildBundle(): Promise<void> {
 
 // build type declarations
 export async function buildDts(): Promise<void> {
-  const bundle = generateDtsBundle([
-    { filePath: ENTRY_FILE, output: { umdModuleName: "r6operators" } },
-  ])
+  const bundle = generateDtsBundle([{ filePath: ENTRY_FILE, output: { umdModuleName: pkg.name } }])
 
   // check if folder exists and create if not
   await fs.stat(`${DIST_DIR}`).catch(async () => {
