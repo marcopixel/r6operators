@@ -36,6 +36,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.4",
     "@types/node": "^16.9.0",
     "@typescript-eslint/eslint-plugin": "^4.31.0",
     "@typescript-eslint/parser": "^4.31.0",

@@ -1,11 +1,14 @@
 import { promises as fs } from "fs"
 import { rollup } from "rollup"
-import { ENTRY_FILE, DIST_DIR } from "./config"
 
 import ts from "rollup-plugin-ts"
 import analyze from "rollup-plugin-analyzer"
 import { terser } from "rollup-plugin-terser"
 import { generateDtsBundle } from "dts-bundle-generator"
+import { nodeResolve } from "@rollup/plugin-node-resolve"
+
+import pkg from "../package.json"
+import { ENTRY_FILE, DIST_DIR } from "./config"
 
 // build ts
 export async function buildBundle(): Promise<void> {
@@ -15,6 +18,7 @@ export async function buildBundle(): Promise<void> {
   const bundle = await rollup({
     input: ENTRY_FILE,
     plugins: [
+      nodeResolve(),
       ts({ transpiler: "babel" }),
       analyze({
         summaryOnly: true,
@@ -29,19 +33,19 @@ export async function buildBundle(): Promise<void> {
   })
 
   await bundle.write({
-    file: `${DIST_DIR}/index.js`,
+    file: pkg.main,
     format: "cjs",
     sourcemap: true,
     exports: "named",
   })
   await bundle.write({
-    file: `${DIST_DIR}/index.mjs`,
+    file: pkg.module,
     format: "esm",
     sourcemap: true,
     exports: "named",
   })
   await bundle.write({
-    file: `${DIST_DIR}/index.min.js`,
+    file: pkg.unpkg,
     format: "umd",
     exports: "named",
     name: "r6operators",
