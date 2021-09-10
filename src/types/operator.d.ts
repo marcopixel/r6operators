@@ -73,4 +73,10 @@ export interface Operator extends IOperator {
       [key: string]: unknown
     }
   }
+  /**
+   * Returns the current icon as an SVG string.
+   * @param userAttributes Object containing additional element attributes.
+   * @returns String containing the SVG element.
+   */
+  toSVG(userAttributes?: Record<string, unknown>): string | Error
 }

@@ -25,10 +25,11 @@ const readSVG = async (op: string) => {
 }
 
 // template for the generated .ts file
-const template = (op: string, obj: unknown) => `
+const template = (op: string, obj: string) => `
+import { getSVGIcon } from "~/functions"
 import { Operator } from "~/types/operator"
 
-export const ${op}: Operator = ${stringifyObject(obj)}
+export const ${op}: Operator = ${obj}
 `
 
 export async function buildIconModules(): Promise<void> {
@@ -46,10 +47,22 @@ export async function buildIconModules(): Promise<void> {
       id: op,
       ...ops[op],
       svg: await readSVG(op),
+      toSVG: "", // empty because the function is added with the transform function
     }
 
+    // stringify object
+    const stringified = stringifyObject(merged, {
+      transform: (obj, property, original) => {
+        // add escaped function for toSVG
+        if (property === "toSVG") {
+          return "function(userAttr){return getSVGIcon(this, userAttr)}"
+        }
+        return original
+      },
+    })
+
     // write into template
-    const contents = template(op, merged)
+    const contents = template(op, stringified)
 
     // create op folder if it doesnt exist
     await fs.stat(`${TEMP_DIR}/modules/${op}`).catch(async () => {
