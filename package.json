@@ -34,6 +34,7 @@
     "build:optimizeicons": "ts-node ./scripts/build-optimized-svg.ts",
     "build:iconmodules": "ts-node ./scripts/build-icon-modules.ts",
     "build:rollup": "ts-node ./scripts/build.ts",
+    "test": "jest",
     "lint": "eslint **/*.{js,ts} --ignore-path .gitignore",
     "format": "prettier **/* --ignore-path .gitignore --check --write",
     "prepare": "husky install"
@@ -43,6 +44,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.0.4",
+    "@types/jest": "^27.0.1",
     "@types/node": "^16.9.0",
     "@typescript-eslint/eslint-plugin": "^4.31.0",
     "@typescript-eslint/parser": "^4.31.0",
@@ -52,6 +54,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-unicorn": "^35.0.0",
     "husky": "^7.0.2",
+    "jest": "^27.1.1",
     "lint-staged": "^11.1.2",
     "micromatch": "^4.0.4",
     "prettier": "^2.3.0",
@@ -61,7 +64,9 @@
     "rollup-plugin-ts": "^1.4.1",
     "stringify-object": "^3.3.0",
     "svgo": "^2.4.0",
+    "ts-jest": "^27.0.5",
     "ts-node": "^10.2.1",
+    "tsconfig-paths": "^3.10.1",
     "typescript": "^4.4.3"
   },
   "browserslist": [
