@@ -61,7 +61,8 @@
     "rollup-plugin-ts": "^1.4.1",
     "stringify-object": "^3.3.0",
     "svgo": "^2.4.0",
-    "tsconfig-paths": "^3.10.1"
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
   },
   "browserslist": [
     "defaults"
