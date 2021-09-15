@@ -1,7 +1,6 @@
-/* eslint-disable unicorn/no-process-exit */
 import path from "path"
 import { promises as fs } from "fs"
-import { optimize, OptimizeOptions } from "svgo"
+import { extendDefaultPlugins, optimize, OptimizeOptions } from "svgo"
 
 import * as ops from "@operators/index"
 import { OPS_DIR, TEMP_DIR, SVGO_PLUGINS } from "./config"
@@ -49,9 +48,3 @@ export async function buildOptimizedSVG(): Promise<void> {
   await Promise.all(result)
   console.log(`Successfully optimized ${counter} icons!\n`)
 }
-
-// execute if file is called directly
-buildOptimizedSVG().catch((error) => {
-  console.log(error)
-  process.exit(1)
-})
