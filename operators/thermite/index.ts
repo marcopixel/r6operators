@@ -5,7 +5,7 @@ export const thermite: IOperator = {
   role: "Attacker",
   unit: "FBI",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 1,
   },

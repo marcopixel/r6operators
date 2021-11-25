@@ -5,7 +5,7 @@ export const castle: IOperator = {
   role: "Defender",
   unit: "SWAT",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 2,
   },

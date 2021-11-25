@@ -5,7 +5,7 @@ export const blackbeard: IOperator = {
   role: "Attacker",
   unit: "SEALS",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 1,
   },

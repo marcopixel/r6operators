@@ -5,7 +5,7 @@ export const dokkaebi: IOperator = {
   role: "Attacker",
   unit: "SMB",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 2,
   },

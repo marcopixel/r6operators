@@ -5,7 +5,7 @@ export const twitch: IOperator = {
   role: "Attacker",
   unit: "GIGN",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 2,
   },

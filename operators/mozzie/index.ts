@@ -5,7 +5,7 @@ export const mozzie: IOperator = {
   role: "Defender",
   unit: "SASR",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 2,
   },

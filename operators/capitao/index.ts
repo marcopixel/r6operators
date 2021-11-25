@@ -5,7 +5,7 @@ export const capitao: IOperator = {
   role: "Attacker",
   unit: "BOPE",
   ratings: {
-    armor: 1,
+    health: 1,
     speed: 3,
     difficulty: 2,
   },

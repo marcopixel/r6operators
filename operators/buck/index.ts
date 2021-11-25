@@ -5,7 +5,7 @@ export const buck: IOperator = {
   role: "Attacker",
   unit: "JTF-2",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 1,
   },

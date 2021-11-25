@@ -5,7 +5,7 @@ export const maverick: IOperator = {
   role: "Attacker",
   unit: "GSUTR",
   ratings: {
-    armor: 1,
+    health: 1,
     speed: 3,
     difficulty: 2,
   },

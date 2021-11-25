@@ -5,7 +5,7 @@ export const blitz: IOperator = {
   role: "Attacker",
   unit: "GSG9",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 3,
   },

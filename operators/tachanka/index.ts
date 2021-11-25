@@ -5,7 +5,7 @@ export const tachanka: IOperator = {
   role: "Defender",
   unit: "SPETSNAZ",
   ratings: {
-    armor: 3,
+    health: 3,
     speed: 1,
     difficulty: 1,
   },

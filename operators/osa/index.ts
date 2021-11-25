@@ -5,7 +5,7 @@ export const osa: IOperator = {
   role: "Attacker",
   unit: "NIGHTHAVEN",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 2,
   },

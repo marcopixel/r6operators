@@ -5,7 +5,7 @@ export const maestro: IOperator = {
   role: "Defender",
   unit: "GIS",
   ratings: {
-    armor: 3,
+    health: 3,
     speed: 1,
     difficulty: 2,
   },

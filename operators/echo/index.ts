@@ -5,7 +5,7 @@ export const echo: IOperator = {
   role: "Defender",
   unit: "SAT",
   ratings: {
-    armor: 3,
+    health: 3,
     speed: 1,
     difficulty: 3,
   },

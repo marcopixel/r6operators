@@ -5,7 +5,7 @@ export const lesion: IOperator = {
   role: "Defender",
   unit: "SDU",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 1,
   },

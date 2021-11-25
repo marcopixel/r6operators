@@ -5,7 +5,7 @@ export const valkyrie: IOperator = {
   role: "Defender",
   unit: "SEALS",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 2,
   },

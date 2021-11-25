@@ -5,7 +5,7 @@ export const rook: IOperator = {
   role: "Defender",
   unit: "GIGN",
   ratings: {
-    armor: 3,
+    health: 3,
     speed: 1,
     difficulty: 1,
   },

@@ -8,7 +8,7 @@ export interface IOperator {
   role: "Attacker" | "Defender" | "Recruit"
   /** Shortened name of the operator's unit */
   unit: string
-  /** Object containing the armor, speed and difficulty ratings. */
+  /** Object containing the health, speed and difficulty ratings. */
   ratings?: IOperatorRatings
   /** Object containing metadata of the operator. */
   meta?: IOperatorMeta
@@ -17,8 +17,8 @@ export interface IOperator {
 }
 
 interface IOperatorRatings {
-  /** Armor rating as a number between `1` and `3` */
-  armor: number
+  /** Health rating as a number between `1` and `3` */
+  health: number
   /** Speed rating as a number between `1` and `3` */
   speed: number
   /** Difficulty rating as a number between `1` and `3` */

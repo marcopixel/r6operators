@@ -5,7 +5,7 @@ export const lion: IOperator = {
   role: "Attacker",
   unit: "CBRN",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 1,
   },

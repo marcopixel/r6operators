@@ -5,7 +5,7 @@ export const mira: IOperator = {
   role: "Defender",
   unit: "GEO",
   ratings: {
-    armor: 3,
+    health: 3,
     speed: 1,
     difficulty: 3,
   },

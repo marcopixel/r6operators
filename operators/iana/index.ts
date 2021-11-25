@@ -5,7 +5,7 @@ export const iana: IOperator = {
   role: "Attacker",
   unit: "REU",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 1,
   },

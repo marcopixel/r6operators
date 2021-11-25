@@ -5,7 +5,7 @@ export const gridlock: IOperator = {
   role: "Attacker",
   unit: "SASR",
   ratings: {
-    armor: 3,
+    health: 3,
     speed: 1,
     difficulty: 1,
   },

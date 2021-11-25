@@ -5,7 +5,7 @@ export const jager: IOperator = {
   role: "Defender",
   unit: "GSG9",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 2,
   },

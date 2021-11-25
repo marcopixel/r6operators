@@ -5,7 +5,7 @@ export const hibana: IOperator = {
   role: "Attacker",
   unit: "SAT",
   ratings: {
-    armor: 1,
+    health: 1,
     speed: 3,
     difficulty: 1,
   },

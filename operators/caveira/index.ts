@@ -5,7 +5,7 @@ export const caveira: IOperator = {
   role: "Defender",
   unit: "BOPE",
   ratings: {
-    armor: 1,
+    health: 1,
     speed: 3,
     difficulty: 3,
   },

@@ -5,7 +5,7 @@ export const nomad: IOperator = {
   role: "Attacker",
   unit: "GIGR",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 3,
   },

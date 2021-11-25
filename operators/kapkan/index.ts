@@ -5,7 +5,7 @@ export const kapkan: IOperator = {
   role: "Defender",
   unit: "SPETSNAZ",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 1,
   },

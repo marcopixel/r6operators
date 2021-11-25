@@ -5,7 +5,7 @@ export const flores: IOperator = {
   role: "Attacker",
   unit: "UNAFFILIATED",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 2,
   },

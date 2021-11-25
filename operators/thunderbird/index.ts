@@ -5,7 +5,7 @@ export const thunderbird: IOperator = {
   role: "Defender",
   unit: "UNAFFILIATED",
   ratings: {
-    armor: 1,
+    health: 1,
     speed: 3,
     difficulty: 1,
   },

@@ -5,7 +5,7 @@ export const zofia: IOperator = {
   role: "Attacker",
   unit: "GROM",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 1,
   },

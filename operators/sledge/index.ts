@@ -5,7 +5,7 @@ export const sledge: IOperator = {
   role: "Attacker",
   unit: "SAS",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 1,
   },

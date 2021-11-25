@@ -5,7 +5,7 @@ export const frost: IOperator = {
   role: "Defender",
   unit: "JTF-2",
   ratings: {
-    armor: 2,
+    health: 2,
     speed: 2,
     difficulty: 1,
   },

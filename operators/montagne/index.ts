@@ -5,7 +5,7 @@ export const montagne: IOperator = {
   role: "Attacker",
   unit: "GIGN",
   ratings: {
-    armor: 3,
+    health: 3,
     speed: 1,
     difficulty: 3,
   },
