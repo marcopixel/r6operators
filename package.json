@@ -29,8 +29,12 @@
   "module": "dist/index.mjs",
   "unpkg": "dist/index.min.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "ts-node ./scripts/build.ts",
+    "clean": "ts-node ./scripts/clean.ts",
+    "build": "npm run clean && ts-node ./scripts/build.ts",
     "test": "jest",
     "lint": "eslint **/*.{js,ts} --ignore-path .gitignore",
     "format": "prettier **/* --ignore-path .gitignore --check --write",
@@ -44,6 +48,7 @@
     "@babel/preset-env": "^7.16.4",
     "@babel/runtime": "^7.16.3",
     "@rollup/plugin-node-resolve": "^13.0.4",
+    "@types/fs-extra": "^9.0.13",
     "@types/jest": "^27.0.1",
     "@types/node": "^16.9.0",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
@@ -53,6 +58,7 @@
     "eslint": "^8.3.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-unicorn": "^39.0.0",
+    "fs-extra": "^10.0.0",
     "husky": "^7.0.2",
     "jest": "^27.1.1",
     "lint-staged": "^12.1.2",
