@@ -11,17 +11,11 @@ r6operators is a collection of high-quality vectorized Rainbow Six: Siege Operat
 
 This project started as way for people to get high-resolution operator icons for Rainbow Six: Siege operators, especially as vector graphics gained popularity in web development in the recent years. All icons have been remade by hand and they got the same aspect ratio & alignment for more consistent usage.
 
-> **Note**: This project is the successor of r6-operatoricons and the old repo was repurposed to the website, please send any icon requests or issues with the package in this repo only.
-
 [https://r6operators.marcopixel.eu/](https://r6operators.marcopixel.eu/)
-
-```shell
-npm install r6operators
-```
 
 ## Usage
 
-##### 1. Install
+#### 1. Install
 
 Install the package with [npm](https://docs.npmjs.com/getting-started/what-is-npm):
 
@@ -29,38 +23,48 @@ Install the package with [npm](https://docs.npmjs.com/getting-started/what-is-np
 npm install r6operators
 ```
 
-##### 2. Require it
+#### 2. Use it
 
 ```js
-const r6operators = require("r6operators")
+import r6operators from "r6operators"
+// default export
 
-import r6operators from "r6operators" // ES6 imports
-```
-
-##### 3. Use it
-
-```js
-const r6operators = require("r6operators")
+import { ace, getSVGIcon } from "r6operators"
+// named exports
 
 r6operators.alibi
 // {
-//   id: 'alibi',
-//   name: 'Alibi',
-//   role: 'Defender',
-//   unit: 'GIS',
-//   ratings: { armor: 1, speed: 3, difficulty: 3 },
-//   meta: { sex: 'f', country: 'it', season: 'Y3S2', height: 171, weight: 63
-// },
-//   bio: { real_name: 'Aria de Luca', birthplace: 'Tripoli, Lybia' },
-//   svg: {
-//     contents: [SVG Contents],
-//     attributes: {
-//       xmlns: 'http://www.w3.org/2000/svg',
-//       viewBox: '0 0 466.667 466.667',
-//       class: 'r6operators r6operators-alibi'
-//     }
-//   },
-//   toSVG: [Function]
+// 	  id: 'alibi',
+// 	  name: 'Alibi',
+// 	  role: 'Defender',
+// 	  unit: 'GIS',
+// 	  ratings: {
+// 		  health: 1,
+// 		  speed: 3,
+// 		  difficulty: 3
+// 	  },
+// 	  meta: {
+// 		  gender: 'f',
+// 		  country: 'it',
+// 		  season: 'Y3S2',
+// 		  height: 171,
+// 		  weight: 63
+// 	  },
+// 	  bio: {
+// 		  real_name: 'Aria de Luca',
+// 		  birthplace: 'Tripoli, Lybia'
+// 	  },
+// 	  svg: {
+// 		  contents: [SVG Contents],
+// 		  attributes: {
+// 			  xmlns: 'http://www.w3.org/2000/svg',
+// 			  viewBox: '0 0 350 350',
+// 			  style: 'enable-background:new 0 0 350 350',
+// 			  space: 'preserve',
+// 			  class: 'r6operators r6operators-alibi'
+// 		  }
+// 	  },
+// 	  toSVG: [Function]
 // }
 
 r6operators.alibi.toSVG()
@@ -70,40 +74,54 @@ r6operators.alibi.toSVG({ class: "large", "stroke-width": 2, color: "red" })
 // <svg class="r6operators r6operators-alibi large" stroke-width="2" color="red" ... >...</svg>
 ```
 
-You can also access the optimized SVG & PNG icons directly from `node_modules\r6operators\lib\icons` if you desire.
+You can also access the optimized SVG icons directly from `node_modules\r6operators\dist\icons` if you desire.
 
 ## Reference
 
 ### `r6operators.[name]`
 
-An object containing all data about the operator, including icons.
+An object containing all data about the operator, including the svg contents and attributes.
 
-> Note: The operator name `alibi` found in the example can be replaced with all operators.
-> You can find the correct names in the [operators.json](https://github.com/marcopixel/r6operators/blob/master/src/operators.json) file.
-> Keep in mind that the properties `bio`, `meta` and `ratings` are not available on recruits.
+> Note: You can find all possible operator names in the [operators/index.ts](https://github.com/marcopixel/r6operators/blob/master/operators/index.ts) file
+>
+> Please keep in mind that the properties `bio`, `meta` and `ratings` are not available on recruits (`recruit_blue, recruit_green, recruit_orange, recruit_red, recruit_yellow`).
 
 ##### Example:
 
 ```js
 r6operators.alibi
 // {
-//   id: 'alibi',
-//   name: 'Alibi',
-//   role: 'Attacker',
-//   unit: 'GIS',
-//   ratings: { armor: 1, speed: 3, difficulty: 3 },
-//   meta: { sex: 'f', country: 'it', season: 'Y3S2', height: 171, weight: 63
-// },
-//   bio: { real_name: 'Aria de Luca', birthplace: 'Tripoli, Lybia' },
-//   svg: {
-//     contents: [SVG Contents],
-//     attributes: {
-//       xmlns: 'http://www.w3.org/2000/svg',
-//       viewBox: '0 0 466.667 466.667',
-//       class: 'r6operators r6operators-alibi'
-//     }
-//   }
-//   toSVG: [Function]
+// 	  id: 'alibi',
+// 	  name: 'Alibi',
+// 	  role: 'Defender',
+// 	  unit: 'GIS',
+// 	  ratings: {
+// 		  health: 1,
+// 		  speed: 3,
+// 		  difficulty: 3
+// 	  },
+// 	  meta: {
+// 		  gender: 'f',
+// 		  country: 'it',
+// 		  season: 'Y3S2',
+// 		  height: 171,
+// 		  weight: 63
+// 	  },
+// 	  bio: {
+// 		  real_name: 'Aria de Luca',
+// 		  birthplace: 'Tripoli, Lybia'
+// 	  },
+// 	  svg: {
+// 		  contents: [SVG Contents],
+// 		  attributes: {
+// 			  xmlns: 'http://www.w3.org/2000/svg',
+// 			  viewBox: '0 0 350 350',
+// 			  style: 'enable-background:new 0 0 350 350',
+// 			  space: 'preserve',
+// 			  class: 'r6operators r6operators-alibi'
+// 		  }
+// 	  },
+// 	  toSVG: [Function]
 // }
 
 r6operators.alibi.unit.toString()
@@ -131,6 +149,29 @@ r6operators.alibi.toSVG({ class: "large" })
 
 r6operators.alibi.toSVG({ "stroke-width": 2, color: "red" })
 // <svg class="r6operators r6operators-alibi" stroke-width="2" color="red" ... >...</svg>
+```
+
+---
+
+### `getSVGIcon([op], [attrs])`
+
+Returns an SVG string of the operator icon.
+
+#### Parameters
+
+| Name               | Type     | Description                                                                                                                                                                                                                  |
+| ------------------ | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `op`               | Operator | Operator object                                                                                                                                                                                                              |
+| `attrs` (optional) | Object   | Key-value pairs in the `attrs` object will be mapped to HTML attributes on the `<svg>` tag (e.g. `{ foo: 'bar' }` maps to `foo="bar"`). All default attributes on the `<svg>` tag can be overridden with the `attrs` object. |
+
+```js
+import { alibi, getSVGIcon } from "r6operators"
+
+getSVGIcon(ace)
+// <svg class="r6operators r6operators-alibi" ... >...</svg>
+
+getSVGIcon(ace, { class: "large" })
+// <svg class="r6operators r6operators-alibi large" ... >...</svg>
 ```
 
 ## Contributing
