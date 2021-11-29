@@ -1,5 +1,5 @@
 /* eslint-disable unicorn/no-process-exit */
-import fs from "fs-extra"
+import { copyDir } from "./util"
 import { TEMP_DIR, DIST_DIR } from "./config"
 import { buildOptimizedSVG } from "./build-optimized-svg"
 import { buildIconModules } from "./build-icon-modules"
@@ -19,7 +19,7 @@ async function main(): Promise<void> {
   await buildDts()
 
   console.log("Copy optimized SVG into /dist folder...\n")
-  await fs.copy(`${TEMP_DIR}/svg/`, `${DIST_DIR}/icons/`, { recursive: true })
+  await copyDir(`${TEMP_DIR}/svg/`, `${DIST_DIR}/icons/`)
 
   console.log("Finished!")
 }
