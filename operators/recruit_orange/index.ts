@@ -1,4 +1,4 @@
-import { IOperator } from "~/types/Operator"
+import { IOperator } from "~/types/operator"
 
 export const recruit_orange: IOperator = {
   name: "Recruit (Orange)",
