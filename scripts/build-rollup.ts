@@ -3,7 +3,6 @@ import { rollup } from "rollup"
 
 import ts from "rollup-plugin-ts"
 import analyze from "rollup-plugin-analyzer"
-import { terser } from "rollup-plugin-terser"
 import { nodeResolve } from "@rollup/plugin-node-resolve"
 import { generateDtsBundle } from "dts-bundle-generator"
 
@@ -44,15 +43,6 @@ export async function buildBundle(): Promise<void> {
     sourcemap: true,
     exports: "named",
   })
-  await bundle.write({
-    file: pkg.unpkg,
-    format: "umd",
-    exports: "named",
-    name: pkg.name,
-    sourcemap: true,
-    plugins: [terser()],
-  })
-
   console.log(`\nSuccessfully bundled library!\n`)
 }
 
