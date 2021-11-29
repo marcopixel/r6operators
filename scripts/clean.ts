@@ -1,9 +1,11 @@
 /* eslint-disable unicorn/no-process-exit */
-import { cleanRepo } from "./clean-repo"
+import { promises as fs } from "fs"
+import { DIST_DIR, TEMP_DIR } from "./config"
 
 async function main(): Promise<void> {
-  console.log("Clean repo...\n")
-  await cleanRepo()
+  await fs.rm(DIST_DIR, { recursive: true, force: true })
+  await fs.rm(TEMP_DIR, { recursive: true, force: true })
+  console.log("Cleanup finished!")
 }
 
 main().catch((error) => {
