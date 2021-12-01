@@ -84,7 +84,7 @@ An object containing all data about the operator, including the svg contents and
 
 > Note: You can find all possible operator names in the [operators/index.ts](https://github.com/marcopixel/r6operators/blob/master/operators/index.ts) file
 >
-> Please keep in mind that the properties `bio`, `meta` and `ratings` are not available on recruits (`recruit_blue, recruit_green, recruit_orange, recruit_red, recruit_yellow`).
+> Please keep in mind that the properties `bio`, `meta` and `ratings` are not available on recruits.
 
 ##### Example:
 
@@ -167,10 +167,10 @@ Returns an SVG string of the operator icon.
 ```js
 import { alibi, getSVGIcon } from "r6operators"
 
-getSVGIcon(ace)
+getSVGIcon(alibi)
 // <svg class="r6operators r6operators-alibi" ... >...</svg>
 
-getSVGIcon(ace, { class: "large" })
+getSVGIcon(alibi, { class: "large" })
 // <svg class="r6operators r6operators-alibi large" ... >...</svg>
 ```
 
