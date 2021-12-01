@@ -185,7 +185,7 @@ Caught a mistake or want to contribute to the documentation? [Edit this page on 
 - [@colebemis](https://github.com/colebemis) for his work on [feather](https://github.com/feathericons/feather), which gave me an awesome reference for this project.
 - [@dtSniper](https://twitter.com/sniperdt) for creating the IQ, Thatcher, Fuze, Glaz, Bandit, Kapkan, Tachanka, Pulse, Sledge and Doc icons.
 - [@joeyfjj](https://twitter.com/joeyfjj) for creating the Goyo, Mute, Smoke, Jäger and Blitz icons.
-- [@LaxisB](https://github.com/LaxisB/) & [@NaughtyMuppet](https://github.com/NaughtyMuppet) for general help on this project. <3
+- [@LaxisB](https://github.com/LaxisB/), [@NaughtyMuppet](https://github.com/NaughtyMuppet) & [@danielwerg](https://github.com/danielwerg) for general help on this project. <3
 
 ## License
 
