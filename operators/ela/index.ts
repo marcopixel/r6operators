@@ -12,7 +12,7 @@ export const ela: IOperator = {
   meta: {
     gender: "f",
     country: "pl",
-    season: "Y2S4",
+    season: "Y2S3",
     height: 173,
     weight: 68,
   },
