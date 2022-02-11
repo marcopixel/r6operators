@@ -51,6 +51,8 @@ interface IOperatorMeta {
   height: number
   /** Weight of the operator, in cm. */
   weight: number
+  /** Unlock price of the operator in credits. */
+  price: 10000 | 15000 | 20000 | 25000
 }
 
 interface IOperatorBio {
