@@ -15,6 +15,7 @@ export const kali: IOperator = {
     season: "Y4S4",
     height: 170,
     weight: 67,
+    price: { renown: 15_000, r6credits: 360 },
   },
   bio: {
     real_name: "Jaimini Kalimohan Shah",

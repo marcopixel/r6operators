@@ -15,6 +15,7 @@ export const alibi: IOperator = {
     season: "Y3S2",
     height: 171,
     weight: 63,
+    price: { renown: 10_000, r6credits: 240 },
   },
   bio: {
     real_name: "Aria de Luca",

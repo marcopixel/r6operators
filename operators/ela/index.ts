@@ -15,6 +15,7 @@ export const ela: IOperator = {
     season: "Y2S3",
     height: 173,
     weight: 68,
+    price: { renown: 10_000, r6credits: 240 },
   },
   bio: {
     real_name: "Elzbieta Bosak",

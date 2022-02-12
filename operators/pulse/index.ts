@@ -15,6 +15,7 @@ export const pulse: IOperator = {
     season: "Release",
     height: 188,
     weight: 85,
+    price: { renown: 1000, r6credits: 0 },
   },
   bio: {
     real_name: "Jack Estrada",

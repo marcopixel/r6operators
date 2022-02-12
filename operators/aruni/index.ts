@@ -15,6 +15,7 @@ export const aruni: IOperator = {
     season: "Y5S4",
     height: 160,
     weight: 58,
+    price: { renown: 20_000, r6credits: 480 },
   },
   bio: {
     real_name: "Apha Tawanroong",

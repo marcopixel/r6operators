@@ -15,6 +15,7 @@ export const thorn: IOperator = {
     season: "Y6S4",
     height: 188,
     weight: 78,
+    price: { renown: 25_000, r6credits: 600 },
   },
   bio: {
     real_name: "Brianna Skehan",

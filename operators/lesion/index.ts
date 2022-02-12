@@ -15,6 +15,7 @@ export const lesion: IOperator = {
     season: "Y2S3",
     height: 174,
     weight: 82,
+    price: { renown: 10_000, r6credits: 240 },
   },
   bio: {
     real_name: "Liu Tze Long",

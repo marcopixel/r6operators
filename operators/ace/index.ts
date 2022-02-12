@@ -15,6 +15,7 @@ export const ace: IOperator = {
     season: "Y5S2",
     height: 187,
     weight: 75,
+    price: { renown: 20_000, r6credits: 480 },
   },
   bio: {
     real_name: "Håvard Haugland",

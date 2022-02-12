@@ -15,6 +15,7 @@ export const maverick: IOperator = {
     season: "Y3S3",
     height: 180,
     weight: 82,
+    price: { renown: 10_000, r6credits: 240 },
   },
   bio: {
     real_name: "Erik Thorn",

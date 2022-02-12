@@ -15,6 +15,7 @@ export const caveira: IOperator = {
     season: "Y1S3",
     height: 155,
     weight: 73,
+    price: { renown: 10_000, r6credits: 240 },
   },
   bio: {
     real_name: "Taina Pereira",

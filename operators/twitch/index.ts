@@ -15,6 +15,7 @@ export const twitch: IOperator = {
     season: "Release",
     height: 168,
     weight: 58,
+    price: { renown: 1000, r6credits: 0 },
   },
   bio: {
     real_name: "Emmanuelle Pichon",

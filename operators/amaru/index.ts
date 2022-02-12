@@ -15,6 +15,7 @@ export const amaru: IOperator = {
     season: "Y4S3",
     height: 189,
     weight: 84,
+    price: { renown: 15_000, r6credits: 360 },
   },
   bio: {
     real_name: "Azucena Rocío Quispe",

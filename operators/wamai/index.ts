@@ -15,6 +15,7 @@ export const wamai: IOperator = {
     season: "Y4S4",
     height: 187,
     weight: 83,
+    price: { renown: 15_000, r6credits: 360 },
   },
   bio: {
     real_name: "Ngũgĩ Muchoki Furaha",

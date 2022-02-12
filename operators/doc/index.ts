@@ -15,6 +15,7 @@ export const doc: IOperator = {
     season: "Release",
     height: 177,
     weight: 79,
+    price: { renown: 1000, r6credits: 0 },
   },
   bio: {
     real_name: "Gustave Kateb",

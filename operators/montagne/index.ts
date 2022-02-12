@@ -15,6 +15,7 @@ export const montagne: IOperator = {
     season: "Release",
     height: 190,
     weight: 100,
+    price: { renown: 1000, r6credits: 0 },
   },
   bio: {
     real_name: "Gilles Touré",

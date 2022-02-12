@@ -48,7 +48,8 @@ r6operators.alibi
 // 		  country: 'it',
 // 		  season: 'Y3S2',
 // 		  height: 171,
-// 		  weight: 63
+// 		  weight: 63,
+//      price: 10000
 // 	  },
 // 	  bio: {
 // 		  real_name: 'Aria de Luca',
@@ -105,7 +106,8 @@ r6operators.alibi
 // 		  country: 'it',
 // 		  season: 'Y3S2',
 // 		  height: 171,
-// 		  weight: 63
+// 		  weight: 63,
+//      price: 10000
 // 	  },
 // 	  bio: {
 // 		  real_name: 'Aria de Luca',

@@ -51,6 +51,13 @@ interface IOperatorMeta {
   height: number
   /** Weight of the operator, in cm. */
   weight: number
+  /** Object containing unlock prices for operators */
+  price: {
+    /** Renown unlock price for operator. */
+    renown: 25_000 | 20_000 | 15_000 | 10_000 | 1000
+    /** R6 Credits unlock price for operator. */
+    r6credits: 600 | 480 | 360 | 240 | 0
+  }
 }
 
 interface IOperatorBio {

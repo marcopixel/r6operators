@@ -15,6 +15,7 @@ export const glaz: IOperator = {
     season: "Release",
     height: 178,
     weight: 79,
+    price: { renown: 1000, r6credits: 0 },
   },
   bio: {
     real_name: "Timur Glazkov",

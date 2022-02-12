@@ -15,6 +15,7 @@ export const finka: IOperator = {
     season: "Y3S1",
     height: 171,
     weight: 68,
+    price: { renown: 10_000, r6credits: 240 },
   },
   bio: {
     real_name: "Lera Melnikova",
