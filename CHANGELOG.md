@@ -2,7 +2,18 @@
 
 All versions upwards from `2.0.0` project will be documented in this file. For all older version, please check the [Releases](https://github.com/marcopixel/r6operators/releases/) tab.
 
-## 2.0.0 (2021-09-08)
+## 2.1.0 (2022-03-16)
+
+### ✨ Features
+
+- 🌟 Added Azami operator icon & metadata ([5561296](https://github.com/marcopixel/r6operators/commit/55612961add5b512896f388e31af96bb8f07f49c))
+- 🪙 Add operator prices (by [@leochras](https://github.com/leochras), [f2f5b62](https://github.com/marcopixel/r6operators/commit/f2f5b62a1c29b2b023126d1a9af8bca8dce1936f))
+
+### 🐛 Bug Fixes
+
+- 🛠 Corrected incorrect season on Ela (by [@danielwerg](https://github.com/danielwerg), [6a8e270](https://github.com/marcopixel/r6operators/commit/6a8e27019e96dd3a9a17dba04065e3737fd76800))
+
+## 2.0.0 (2021-12-01)
 
 ### ✨ Features
 
@@ -20,5 +31,3 @@ All versions upwards from `2.0.0` project will be documented in this file. For a
 - **BREAKING**: Renamed `[op].ratings.armor` to `[op].ratings.health` ([4311beb](https://github.com/marcopixel/r6operators/commit/4311beb57cc80ae2562631c83e6d6bbf2bad2b0a))
 - **BREAKING**: PNG files are no longer supplied with the library ([See #1 for more information](https://github.com/marcopixel/r6operators/issues/1#issuecomment-861881904))
 - **BREAKING**: Compiled library & icons path moved from `/lib` to `/dist` ([7756724](https://github.com/marcopixel/r6operators/commit/7756724e0f2d56cf7cc8521da8727c0804af06da))
-
-Thanks to [@danielwerg](https://github.com/danielwerg) for his help on this release 👍
