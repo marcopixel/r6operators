@@ -9,7 +9,7 @@ import { OPS_DIR, TEMP_DIR } from "./config"
 const readSVG = async (op: string) => {
   // read optimized svg icon
   const svgPath = path.resolve(`${TEMP_DIR}/svg/${op}.svg`)
-  const svg = await fs.readFile(svgPath, "utf-8")
+  const svg = await fs.readFile(svgPath, "utf8")
 
   // get attributes + values of the SVG
   const $ = cheerio.load(svg)

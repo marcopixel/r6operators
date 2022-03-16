@@ -17,7 +17,7 @@ export async function buildOptimizedSVG(): Promise<void> {
   const result = Object.keys(ops).map(async (op) => {
     // read file to get SVG data
     const svgPath = path.resolve(`${OPS_DIR}/${op}/${op}.svg`)
-    const sourceFile = await fs.readFile(svgPath, "utf-8")
+    const sourceFile = await fs.readFile(svgPath, "utf8")
 
     // iterate counter + output to inform user
     counter += 1
