@@ -15,7 +15,7 @@ export const dokkaebi: IOperator = {
     season: "Y2S4",
     height: 169,
     weight: 62,
-    price: { renown: 10_000, r6credits: 240 },
+    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Grace Nam",

@@ -54,7 +54,7 @@ interface IOperatorMeta {
   /** Object containing unlock prices for operators */
   price: {
     /** Renown unlock price for operator. */
-    renown: 25_000 | 20_000 | 15_000 | 10_000 | 1000
+    renown: 25000 | 20000 | 15000 | 10000 | 1000
     /** R6 Credits unlock price for operator. */
     r6credits: 600 | 480 | 360 | 240 | 0
   }

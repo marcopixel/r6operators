@@ -15,7 +15,7 @@ export const hibana: IOperator = {
     season: "Y1S4",
     height: 173,
     weight: 57,
-    price: { renown: 10_000, r6credits: 240 },
+    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Yumiko Imagawa",

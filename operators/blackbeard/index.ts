@@ -15,7 +15,7 @@ export const blackbeard: IOperator = {
     season: "Y1S2",
     height: 180,
     weight: 84,
-    price: { renown: 10_000, r6credits: 240 },
+    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Craig Jenson",

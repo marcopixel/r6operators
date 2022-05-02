@@ -15,7 +15,7 @@ export const vigil: IOperator = {
     season: "Y2S4",
     height: 173,
     weight: 73,
-    price: { renown: 10_000, r6credits: 240 },
+    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Chul Kyung Hwa",

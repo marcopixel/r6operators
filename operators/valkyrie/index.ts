@@ -15,7 +15,7 @@ export const valkyrie: IOperator = {
     season: "Y1S2",
     height: 170,
     weight: 57,
-    price: { renown: 10_000, r6credits: 240 },
+    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Meghan J. Castellano",
