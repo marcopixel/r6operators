@@ -15,7 +15,7 @@ export const warden: IOperator = {
     season: "Y4S2",
     height: 173,
     weight: 73,
-    price: { renown: 15_000, r6credits: 360 },
+    price: { renown: 10_000, r6credits: 240 },
   },
   bio: {
     real_name: "Collinn McKinley",
