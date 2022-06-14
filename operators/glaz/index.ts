@@ -5,8 +5,8 @@ export const glaz: IOperator = {
   role: "Attacker",
   unit: "SPETSNAZ",
   ratings: {
-    health: 2,
-    speed: 2,
+    health: 1,
+    speed: 3,
     difficulty: 1,
   },
   meta: {
