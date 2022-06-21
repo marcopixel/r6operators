@@ -15,7 +15,7 @@ export const iana: IOperator = {
     season: "Y5S1",
     height: 157,
     weight: 56,
-    price: { renown: 15_000, r6credits: 360 },
+    price: { renown: 15000, r6credits: 360 },
   },
   bio: {
     real_name: "Nienke Meijer",

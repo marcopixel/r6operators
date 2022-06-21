@@ -15,7 +15,7 @@ export const capitao: IOperator = {
     season: "Y1S3",
     height: 180,
     weight: 86,
-    price: { renown: 10_000, r6credits: 240 },
+    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Vincente Souza",

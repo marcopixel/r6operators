@@ -15,7 +15,7 @@ export const nomad: IOperator = {
     season: "Y3S4",
     height: 171,
     weight: 63,
-    price: { renown: 10_000, r6credits: 240 },
+    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Sanaa El Maktoub",

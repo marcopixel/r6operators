@@ -15,7 +15,7 @@ export const lion: IOperator = {
     season: "Y3S1",
     height: 185,
     weight: 87,
-    price: { renown: 10_000, r6credits: 240 },
+    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Olivier Flament",

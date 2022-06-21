@@ -15,7 +15,7 @@ export const echo: IOperator = {
     season: "Y1S4",
     height: 180,
     weight: 72,
-    price: { renown: 10_000, r6credits: 240 },
+    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Masaru Enatsu",

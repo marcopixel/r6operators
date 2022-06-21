@@ -15,7 +15,7 @@ export const gridlock: IOperator = {
     season: "Y4S1",
     height: 171,
     weight: 83,
-    price: { renown: 10_000, r6credits: 240 },
+    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Tori Tallyo Fairous",

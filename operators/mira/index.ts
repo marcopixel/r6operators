@@ -15,7 +15,7 @@ export const mira: IOperator = {
     season: "Y2S1",
     height: 165,
     weight: 60,
-    price: { renown: 10_000, r6credits: 240 },
+    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Elena Maria Alvarez del Manzano",
