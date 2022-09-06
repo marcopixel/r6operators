@@ -15,7 +15,6 @@ export const buck: IOperator = {
     season: "Y1S1",
     height: 178,
     weight: 84,
-    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Sébastien Côté",

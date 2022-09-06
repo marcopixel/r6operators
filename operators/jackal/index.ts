@@ -15,7 +15,6 @@ export const jackal: IOperator = {
     season: "Y2S1",
     height: 190,
     weight: 78,
-    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Ryad Ramirez Al-Hassar",

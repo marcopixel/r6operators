@@ -15,7 +15,6 @@ export const smoke: IOperator = {
     season: "Release",
     height: 173,
     weight: 70,
-    price: { renown: 1000, r6credits: 0 },
   },
   bio: {
     real_name: "James Porter",

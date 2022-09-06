@@ -15,7 +15,6 @@ export const maestro: IOperator = {
     season: "Y3S2",
     height: 185,
     weight: 87,
-    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Adriano Martello",

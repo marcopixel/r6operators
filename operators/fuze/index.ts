@@ -15,7 +15,6 @@ export const fuze: IOperator = {
     season: "Release",
     height: 172,
     weight: 58,
-    price: { renown: 1000, r6credits: 0 },
   },
   bio: {
     real_name: "Shuhrat Kessikbayev",

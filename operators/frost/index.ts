@@ -15,7 +15,6 @@ export const frost: IOperator = {
     season: "Y1S1",
     height: 172,
     weight: 58,
-    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Tina Lin Tsang",

@@ -15,7 +15,6 @@ export const ying: IOperator = {
     season: "Y2S3",
     height: 160,
     weight: 52,
-    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Siu Mei Lin",

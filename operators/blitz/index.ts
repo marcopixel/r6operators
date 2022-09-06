@@ -15,7 +15,6 @@ export const blitz: IOperator = {
     season: "Release",
     height: 175,
     weight: 75,
-    price: { renown: 1000, r6credits: 0 },
   },
   bio: {
     real_name: "Elias Kötz",

@@ -15,7 +15,6 @@ export const oryx: IOperator = {
     season: "Y5S1",
     height: 195,
     weight: 130,
-    price: { renown: 15000, r6credits: 360 },
   },
   bio: {
     real_name: "Saif Al Hadid",

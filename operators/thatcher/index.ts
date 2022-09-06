@@ -15,7 +15,6 @@ export const thatcher: IOperator = {
     season: "Release",
     height: 180,
     weight: 86,
-    price: { renown: 1000, r6credits: 0 },
   },
   bio: {
     real_name: "Mike Baker",

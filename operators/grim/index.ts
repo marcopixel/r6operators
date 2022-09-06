@@ -15,7 +15,6 @@ export const grim: IOperator = {
     season: "Y7S3",
     height: 179,
     weight: 89.8,
-    price: { renown: 25000, r6credits: 600 },
   },
   bio: {
     real_name: "Charlie Tho Keng Boon",

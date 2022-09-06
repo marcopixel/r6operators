@@ -15,7 +15,6 @@ export const flores: IOperator = {
     season: "Y6S1",
     height: 181,
     weight: 72,
-    price: { renown: 20000, r6credits: 480 },
   },
   bio: {
     real_name: "Santiago Miguel Lucero",

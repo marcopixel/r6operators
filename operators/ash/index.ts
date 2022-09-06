@@ -15,7 +15,6 @@ export const ash: IOperator = {
     season: "Release",
     height: 170,
     weight: 63,
-    price: { renown: 1000, r6credits: 0 },
   },
   bio: {
     real_name: "Eliza Cohen",

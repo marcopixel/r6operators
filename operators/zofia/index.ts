@@ -15,7 +15,6 @@ export const zofia: IOperator = {
     season: "Y2S4",
     height: 179,
     weight: 72,
-    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Zofia Bosak",

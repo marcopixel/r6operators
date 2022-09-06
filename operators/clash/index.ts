@@ -15,7 +15,6 @@ export const clash: IOperator = {
     season: "Y3S3",
     height: 179,
     weight: 73,
-    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Morowa Evans",

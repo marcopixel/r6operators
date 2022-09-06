@@ -15,7 +15,6 @@ export const thermite: IOperator = {
     season: "Release",
     height: 178,
     weight: 80,
-    price: { renown: 1000, r6credits: 0 },
   },
   bio: {
     real_name: "Jordan Trace",

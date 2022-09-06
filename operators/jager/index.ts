@@ -15,7 +15,6 @@ export const jager: IOperator = {
     season: "Release",
     height: 180,
     weight: 64,
-    price: { renown: 1000, r6credits: 0 },
   },
   bio: {
     real_name: "Marius Streicher",

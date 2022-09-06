@@ -15,7 +15,6 @@ export const sens: IOperator = {
     season: "Y7S2",
     height: 178,
     weight: 73,
-    price: { renown: 25000, r6credits: 600 },
   },
   bio: {
     real_name: "Néon Ngoma Mutombo",

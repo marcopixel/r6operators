@@ -15,7 +15,6 @@ export const mozzie: IOperator = {
     season: "Y4S1",
     height: 162,
     weight: 57,
-    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Max Goose",

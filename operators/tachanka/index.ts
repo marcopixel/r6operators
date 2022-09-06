@@ -15,7 +15,6 @@ export const tachanka: IOperator = {
     season: "Release",
     height: 183,
     weight: 86,
-    price: { renown: 1000, r6credits: 0 },
   },
   bio: {
     real_name: "Alexandr Senaviev",

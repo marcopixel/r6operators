@@ -15,7 +15,6 @@ export const thunderbird: IOperator = {
     season: "Y6S2",
     height: 172,
     weight: 70,
-    price: { renown: 20000, r6credits: 480 },
   },
   bio: {
     real_name: "Mina Sky",

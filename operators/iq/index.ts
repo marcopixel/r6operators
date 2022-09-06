@@ -15,7 +15,6 @@ export const iq: IOperator = {
     season: "Release",
     height: 175,
     weight: 70,
-    price: { renown: 1000, r6credits: 0 },
   },
   bio: {
     real_name: "Monika Weiss",

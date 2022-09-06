@@ -15,7 +15,6 @@ export const azami: IOperator = {
     season: "Y7S1",
     height: 164,
     weight: 56.7,
-    price: { renown: 25000, r6credits: 600 },
   },
   bio: {
     real_name: "Kana Fujiwara",

@@ -15,7 +15,6 @@ export const osa: IOperator = {
     season: "Y6S3",
     height: 180,
     weight: 71,
-    price: { renown: 25000, r6credits: 600 },
   },
   bio: {
     real_name: "Anja Katarina Janković",

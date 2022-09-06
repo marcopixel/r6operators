@@ -15,7 +15,6 @@ export const nokk: IOperator = {
     season: "Y4S2",
     height: 0,
     weight: 0,
-    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "[REDACTED]",

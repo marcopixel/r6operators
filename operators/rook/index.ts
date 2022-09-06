@@ -15,7 +15,6 @@ export const rook: IOperator = {
     season: "Release",
     height: 175,
     weight: 72,
-    price: { renown: 1000, r6credits: 0 },
   },
   bio: {
     real_name: "Julien Nizan",

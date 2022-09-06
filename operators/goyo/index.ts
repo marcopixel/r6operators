@@ -15,7 +15,6 @@ export const goyo: IOperator = {
     season: "Y4S3",
     height: 171,
     weight: 83,
-    price: { renown: 15000, r6credits: 360 },
   },
   bio: {
     real_name: "César Ruiz Hernández",

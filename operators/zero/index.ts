@@ -15,7 +15,6 @@ export const zero: IOperator = {
     season: "Y5S3",
     height: 178,
     weight: 77,
-    price: { renown: 20000, r6credits: 480 },
   },
   bio: {
     real_name: "Samuel Leo Fisher",

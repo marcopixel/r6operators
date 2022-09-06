@@ -8,6 +8,8 @@ const DIST_DIR = path.resolve(`./dist`)
 const ENTRY_FILE = path.resolve("./src/index.ts")
 const DECLARATION_FILE = path.resolve("./src/types/index.d.ts")
 
+const CURRENT_SEASON = "Y7S3"
+
 const SVGO_PLUGINS: Plugin[] = [
   // "cleanupIDs" plugin is added at the build-optimized-svg script directly
   // to prevent gradient id clash (it will add the operator id as prefix)
@@ -48,4 +50,4 @@ const SVGO_PLUGINS: Plugin[] = [
   "removeDimensions",
 ]
 
-export { OPS_DIR, TEMP_DIR, DIST_DIR, ENTRY_FILE, DECLARATION_FILE, SVGO_PLUGINS }
+export { OPS_DIR, TEMP_DIR, DIST_DIR, ENTRY_FILE, DECLARATION_FILE, CURRENT_SEASON, SVGO_PLUGINS }

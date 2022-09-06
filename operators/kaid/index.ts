@@ -15,7 +15,6 @@ export const kaid: IOperator = {
     season: "Y3S4",
     height: 195,
     weight: 98,
-    price: { renown: 10000, r6credits: 240 },
   },
   bio: {
     real_name: "Jalal El Fassi",

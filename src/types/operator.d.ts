@@ -52,7 +52,7 @@ interface IOperatorMeta {
   /** Weight of the operator, in cm. */
   weight: number
   /** Object containing unlock prices for operators */
-  price: {
+  price?: {
     /** Renown unlock price for operator. */
     renown: 25000 | 20000 | 15000 | 10000 | 1000
     /** R6 Credits unlock price for operator. */
