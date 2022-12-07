@@ -1,5 +1,5 @@
 import path from "path"
-import { Plugin } from "svgo"
+import { PluginConfig } from "svgo"
 
 const OPS_DIR = path.resolve(`./operators`)
 const TEMP_DIR = path.resolve(`./temp`)
@@ -10,7 +10,7 @@ const DECLARATION_FILE = path.resolve("./src/types/index.d.ts")
 
 const CURRENT_SEASON = "Y7S3"
 
-const SVGO_PLUGINS: Plugin[] = [
+const SVGO_PLUGINS: PluginConfig[] = [
   // "cleanupIDs" plugin is added at the build-optimized-svg script directly
   // to prevent gradient id clash (it will add the operator id as prefix)
   "removeDoctype",
@@ -22,7 +22,7 @@ const SVGO_PLUGINS: Plugin[] = [
   "mergeStyles",
   "inlineStyles",
   "minifyStyles",
-  "cleanupIDs",
+  "cleanupIds",
   "removeUselessDefs",
   "cleanupNumericValues",
   "convertColors",

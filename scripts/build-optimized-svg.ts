@@ -1,6 +1,6 @@
 import path from "path"
 import { promises as fs } from "fs"
-import { optimize, OptimizeOptions } from "svgo"
+import { optimize, Config as OptimizeOptions } from "svgo"
 
 import * as ops from "@operators/index"
 import { OPS_DIR, TEMP_DIR, SVGO_PLUGINS } from "./config"
@@ -33,7 +33,7 @@ export async function buildOptimizedSVG(): Promise<void> {
         // enable plugins
         ...SVGO_PLUGINS,
         {
-          name: "cleanupIDs",
+          name: "prefixIds",
           params: { prefix: `${op}-` },
         },
       ],
