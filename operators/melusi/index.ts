@@ -5,8 +5,8 @@ export const melusi: IOperator = {
   role: "Defender",
   unit: "ITF",
   ratings: {
-    health: 1,
-    speed: 3,
+    health: 3,
+    speed: 1,
     difficulty: 1,
   },
   meta: {
