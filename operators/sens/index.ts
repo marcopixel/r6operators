@@ -5,8 +5,8 @@ export const sens: IOperator = {
   role: "Attacker",
   unit: "SFG",
   ratings: {
-    health: 3,
-    speed: 1,
+    health: 1,
+    speed: 3,
     difficulty: 2,
   },
   meta: {
