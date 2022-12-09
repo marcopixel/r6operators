@@ -5,8 +5,8 @@ export const thunderbird: IOperator = {
   role: "Defender",
   unit: "UNAFFILIATED",
   ratings: {
-    health: 1,
-    speed: 3,
+    health: 2,
+    speed: 2,
     difficulty: 1,
   },
   meta: {
