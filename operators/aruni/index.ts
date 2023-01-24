@@ -5,8 +5,8 @@ export const aruni: IOperator = {
   role: "Defender",
   unit: "NIGHTHAVEN",
   ratings: {
-    health: 2,
-    speed: 2,
+    health: 3,
+    speed: 1,
     difficulty: 2,
   },
   meta: {

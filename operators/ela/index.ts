@@ -5,8 +5,8 @@ export const ela: IOperator = {
   role: "Defender",
   unit: "GROM",
   ratings: {
-    health: 1,
-    speed: 3,
+    health: 2,
+    speed: 2,
     difficulty: 1,
   },
   meta: {
