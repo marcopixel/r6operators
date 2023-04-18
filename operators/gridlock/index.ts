@@ -3,7 +3,7 @@ import { IOperator } from "~/types/operator"
 export const gridlock: IOperator = {
   name: "Gridlock",
   role: "Attacker",
-  unit: "SASR",
+  unit: "REDHAMMER",
   ratings: {
     health: 3,
     speed: 1,
