@@ -3,7 +3,7 @@ import { IOperator } from "~/types/operator"
 export const dokkaebi: IOperator = {
   name: "Dokkaebi",
   role: "Attacker",
-  unit: "SMB",
+  unit: "VIPERSTRIKE",
   ratings: {
     health: 1,
     speed: 3,
