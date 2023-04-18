@@ -3,7 +3,7 @@ import { IOperator } from "~/types/operator"
 export const echo: IOperator = {
   name: "Echo",
   role: "Defender",
-  unit: "SAT",
+  unit: "VIPERSTRIKE",
   ratings: {
     health: 2,
     speed: 2,
