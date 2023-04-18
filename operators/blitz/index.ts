@@ -3,7 +3,7 @@ import { IOperator } from "~/types/operator"
 export const blitz: IOperator = {
   name: "Blitz",
   role: "Attacker",
-  unit: "GSG9",
+  unit: "VIPERSTRIKE",
   ratings: {
     health: 2,
     speed: 2,
