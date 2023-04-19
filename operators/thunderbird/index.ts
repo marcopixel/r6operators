@@ -3,7 +3,7 @@ import { IOperator } from "~/types/operator"
 export const thunderbird: IOperator = {
   name: "Thunderbird",
   role: "Defender",
-  unit: "UNAFFILIATED",
+  unit: "WOLFGUARD",
   ratings: {
     health: 2,
     speed: 2,
