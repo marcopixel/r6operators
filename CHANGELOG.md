@@ -2,6 +2,44 @@
 
 All versions upwards from `2.0.0` project will be documented in this file. For all older version, please check the [Releases](https://github.com/marcopixel/r6operators/releases/) tab.
 
+## 2.5.0 (2023-05-24)
+
+### ✨ Features
+
+- 🌟 Added Fenrir operator icon & metadata (thanks to @danielwerg, [557b359](https://github.com/marcopixel/r6operators/commit/557b359e7af2e9d761a67a58739e19c4ba6e41e2))
+- 🌟 Added Brava operator icon & metadata (thanks to @danielwerg, [afc28fa](https://github.com/marcopixel/r6operators/commit/afc28fa35fbb157e7e0d1d2ff1e04778dc45180f))
+
+### 🐛 Bug Fixes
+
+- 🛠 Updated operator metadata ([c457841](https://github.com/marcopixel/r6operators/commit/c4578413e73a71a1a172022e41db53003ebae618))
+
+### 🚨 Breaking Changes
+
+- **BREAKING**: Replaced `[op].unit` with `[op].org` and `[op].squad` ([c457841](https://github.com/marcopixel/r6operators/commit/c4578413e73a71a1a172022e41db53003ebae618))
+
+## 2.4.0 (2022-12-07)
+
+### ✨ Features
+
+- 🌟 Added Solis operator icon & metadata - thanks to @danielwerg for making the icon and collecting the metadata ([b6b1741](https://github.com/marcopixel/r6operators/commit/b6b17413ee3a8cb4b3dc4328c2ab36062363208a))
+
+## 2.3.0 (2022-09-06)
+
+### ✨ Features
+
+- 🌟 Added Grim operator icon & metadata ([b812269](https://github.com/marcopixel/r6operators/commit/b81226947cedca55a62ac3dfb5ebe1f62548dbc5))
+- 🛠 Added function to automatically calculate operator prices (by @danielwerg, [08989b6](https://github.com/marcopixel/r6operators/commit/08989b6666b2d1fc5fbe7fccdbb3b067fbdaea7a))
+
+## 2.2.0 (2022-06-23)
+
+### ✨ Features
+
+- 🌟 Added Sens operator icon & metadata ([3132a88](https://github.com/marcopixel/r6operators/commit/3132a88e0d8f3b4dd4e7fd1acfb7fa1040651f99))
+
+### 🐛 Bug Fixes
+
+- 🛠 Updated operator prices + glaz rating (by @danielwerg, [6eaf958](https://github.com/marcopixel/r6operators/commit/6eaf958e24fcaba0b01ba5be7f351348606a867c))
+
 ## 2.1.0 (2022-03-16)
 
 ### ✨ Features
