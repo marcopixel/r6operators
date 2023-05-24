@@ -3,7 +3,8 @@ import { IOperator } from "~/types/operator"
 export const fuze: IOperator = {
   name: "Fuze",
   role: "Attacker",
-  unit: "SPETSNAZ",
+  org: "SPETSNAZ",
+  squad: "REDHAMMER",
   ratings: {
     health: 3,
     speed: 1,
@@ -13,8 +14,8 @@ export const fuze: IOperator = {
     gender: "m",
     country: "ru",
     season: "Release",
-    height: 172,
-    weight: 58,
+    height: 180,
+    weight: 80,
   },
   bio: {
     real_name: "Shuhrat Kessikbayev",

@@ -3,7 +3,8 @@ import { IOperator } from "~/types/operator"
 export const lesion: IOperator = {
   name: "Lesion",
   role: "Defender",
-  unit: "SDU",
+  org: "SDU",
+  squad: "GHOSTEYES",
   ratings: {
     health: 2,
     speed: 2,

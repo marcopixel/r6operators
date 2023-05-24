@@ -3,7 +3,8 @@ import { IOperator } from "~/types/operator"
 export const valkyrie: IOperator = {
   name: "Valkyrie",
   role: "Defender",
-  unit: "SEALS",
+  org: "NAVY SEALS",
+  squad: "GHOSTEYES",
   ratings: {
     health: 2,
     speed: 2,
@@ -14,7 +15,7 @@ export const valkyrie: IOperator = {
     country: "us",
     season: "Y1S2",
     height: 170,
-    weight: 57,
+    weight: 61,
   },
   bio: {
     real_name: "Meghan J. Castellano",

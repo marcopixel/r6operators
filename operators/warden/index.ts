@@ -3,7 +3,8 @@ import { IOperator } from "~/types/operator"
 export const warden: IOperator = {
   name: "Warden",
   role: "Defender",
-  unit: "SECRET SERVICE",
+  org: "SECRET SERVICE",
+  squad: "GHOSTEYES",
   ratings: {
     health: 2,
     speed: 2,
@@ -13,8 +14,8 @@ export const warden: IOperator = {
     gender: "m",
     country: "us",
     season: "Y4S2",
-    height: 173,
-    weight: 73,
+    height: 183,
+    weight: 80,
   },
   bio: {
     real_name: "Collinn McKinley",

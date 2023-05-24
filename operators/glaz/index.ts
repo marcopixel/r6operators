@@ -3,11 +3,12 @@ import { IOperator } from "~/types/operator"
 export const glaz: IOperator = {
   name: "Glaz",
   role: "Attacker",
-  unit: "SPETSNAZ",
+  org: "SPETSNAZ",
+  squad: "GHOSTEYES",
   ratings: {
     health: 1,
     speed: 3,
-    difficulty: 1,
+    difficulty: 2,
   },
   meta: {
     gender: "m",

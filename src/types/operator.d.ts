@@ -6,8 +6,10 @@ export interface IOperator {
    *  Possible values are `Attacker`, `Defender` or `Recruit`
    */
   role: "Attacker" | "Defender" | "Recruit"
-  /** Shortened name of the operator's unit */
-  unit: string
+  /** Operator organisation name */
+  org: string
+  /** Operator squad name */
+  squad: string
   /** Object containing the health, speed and difficulty ratings. */
   ratings?: IOperatorRatings
   /** Object containing metadata of the operator. */

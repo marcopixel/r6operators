@@ -3,7 +3,8 @@ import { IOperator } from "~/types/operator"
 export const montagne: IOperator = {
   name: "Montagne",
   role: "Attacker",
-  unit: "GIGN",
+  org: "GIGN",
+  squad: "WOLFGUARD",
   ratings: {
     health: 3,
     speed: 1,
@@ -14,7 +15,7 @@ export const montagne: IOperator = {
     country: "fr",
     season: "Release",
     height: 190,
-    weight: 100,
+    weight: 90,
   },
   bio: {
     real_name: "Gilles Touré",

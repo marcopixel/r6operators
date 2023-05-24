@@ -3,7 +3,8 @@ import { IOperator } from "~/types/operator"
 export const doc: IOperator = {
   name: "Doc",
   role: "Defender",
-  unit: "GIGN",
+  org: "GIGN",
+  squad: "WOLFGUARD",
   ratings: {
     health: 3,
     speed: 1,
@@ -14,7 +15,7 @@ export const doc: IOperator = {
     country: "fr",
     season: "Release",
     height: 177,
-    weight: 79,
+    weight: 74,
   },
   bio: {
     real_name: "Gustave Kateb",

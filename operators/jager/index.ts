@@ -3,7 +3,8 @@ import { IOperator } from "~/types/operator"
 export const jager: IOperator = {
   name: "Jäger",
   role: "Defender",
-  unit: "GSG9",
+  org: "GSG 9",
+  squad: "VIPERSTRIKE",
   ratings: {
     health: 2,
     speed: 2,

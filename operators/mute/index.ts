@@ -3,7 +3,8 @@ import { IOperator } from "~/types/operator"
 export const mute: IOperator = {
   name: "Mute",
   role: "Defender",
-  unit: "SAS",
+  org: "SAS",
+  squad: "VIPERSTRIKE",
   ratings: {
     health: 3,
     speed: 1,
@@ -13,7 +14,7 @@ export const mute: IOperator = {
     gender: "m",
     country: "uk",
     season: "Release",
-    height: 170,
+    height: 185,
     weight: 80,
   },
   bio: {

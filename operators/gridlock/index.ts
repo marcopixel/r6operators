@@ -3,7 +3,8 @@ import { IOperator } from "~/types/operator"
 export const gridlock: IOperator = {
   name: "Gridlock",
   role: "Attacker",
-  unit: "SASR",
+  org: "SASR",
+  squad: "REDHAMMER",
   ratings: {
     health: 3,
     speed: 1,
@@ -13,8 +14,8 @@ export const gridlock: IOperator = {
     gender: "f",
     country: "au",
     season: "Y4S1",
-    height: 171,
-    weight: 83,
+    height: 177,
+    weight: 102,
   },
   bio: {
     real_name: "Tori Tallyo Fairous",

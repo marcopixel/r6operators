@@ -3,7 +3,8 @@ import { IOperator } from "~/types/operator"
 export const echo: IOperator = {
   name: "Echo",
   role: "Defender",
-  unit: "SAT",
+  org: "SAT",
+  squad: "VIPERSTRIKE",
   ratings: {
     health: 2,
     speed: 2,
@@ -18,6 +19,6 @@ export const echo: IOperator = {
   },
   bio: {
     real_name: "Masaru Enatsu",
-    birthplace: "Suginami, Japan",
+    birthplace: "Tokyo (Suginami-ku), Japan",
   },
 }

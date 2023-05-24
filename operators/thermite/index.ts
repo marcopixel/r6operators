@@ -3,7 +3,8 @@ import { IOperator } from "~/types/operator"
 export const thermite: IOperator = {
   name: "Thermite",
   role: "Attacker",
-  unit: "FBI",
+  org: "FBI SWAT",
+  squad: "REDHAMMER",
   ratings: {
     health: 2,
     speed: 2,
