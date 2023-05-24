@@ -1,3 +1,4 @@
+/* eslint-disable unicorn/prefer-top-level-await */
 /* eslint-disable unicorn/no-process-exit */
 import { promises as fs } from "fs"
 import { DIST_DIR, TEMP_DIR } from "./config"

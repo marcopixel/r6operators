@@ -1,6 +1,6 @@
 {
   "name": "r6operators",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "r6operators is a collection of high-quality vectorized Rainbow Six: Siege Operator icons & metadata for Node.js",
   "keywords": [
     "rainbow six siege",
@@ -50,14 +50,14 @@
     "@babel/runtime": "^7.18.3",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@types/jest": "^29.2.4",
-    "@types/node": "^18.0.0",
+    "@types/node": "^20.2.3",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "cheerio": "^1.0.0-rc.10",
-    "dts-bundle-generator": "^7.1.0",
+    "dts-bundle-generator": "^8.0.1",
     "eslint": "^8.3.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-unicorn": "^45.0.1",
+    "eslint-plugin-unicorn": "^47.0.0",
     "husky": "^8.0.1",
     "jest": "^29.3.1",
     "lint-staged": "^13.0.2",
@@ -71,7 +71,7 @@
     "ts-jest": "^29.0.3",
     "ts-node": "^10.2.1",
     "tsconfig-paths": "^4.0.0",
-    "typescript": "^4.4.3"
+    "typescript": "^5.0.4"
   },
   "browserslist": [
     "defaults"

@@ -1,3 +1,4 @@
+/* eslint-disable unicorn/prefer-top-level-await */
 /* eslint-disable unicorn/no-process-exit */
 import { copyDir } from "./util"
 import { TEMP_DIR, DIST_DIR } from "./config"

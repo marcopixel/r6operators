@@ -40,17 +40,21 @@ const getPrice = (seasonId: number, lastSeasonId: number) => {
   const ratio = (lastSeasonId - seasonId) / 4
   let result = { renown: 0, r6credits: 0 }
   switch (Math.floor(ratio)) {
-    case 0:
+    case 0: {
       result = { renown: 25000, r6credits: 600 }
       break
-    case 1:
+    }
+    case 1: {
       result = { renown: 20000, r6credits: 480 }
       break
-    case 2:
+    }
+    case 2: {
       result = { renown: 15000, r6credits: 360 }
       break
-    default:
+    }
+    default: {
       result = { renown: 10000, r6credits: 240 }
+    }
   }
   return seasonId === 0 ? { renown: 1000, r6credits: 0 } : result
 }
