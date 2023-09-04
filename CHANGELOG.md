@@ -2,6 +2,12 @@
 
 All versions upwards from `2.0.0` project will be documented in this file. For all older version, please check the [Releases](https://github.com/marcopixel/r6operators/releases/) tab.
 
+## 2.6.0 (2023-09-04)
+
+### ✨ Features
+
+- 🌟 Added Ram operator icon & metadata ([5f5f2b9](https://github.com/marcopixel/r6operators/commit/5f5f2b9a2bd59497383535c9b9155c0d26707aa1))
+
 ## 2.5.0 (2023-05-24)
 
 ### ✨ Features
