@@ -18,7 +18,7 @@ function attributesToString(attributes: Record<string, unknown>): string {
  */
 export function getSVGIcon(
   op: Operator,
-  userAttributes?: { [key: string]: unknown }
+  userAttributes?: { [key: string]: unknown },
 ): string | Error {
   // check if parameter is an object
   if (userAttributes && typeof userAttributes !== "object") {

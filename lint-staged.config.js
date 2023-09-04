@@ -7,15 +7,15 @@
 const micromatch = require("micromatch")
 const prettier = require("prettier")
 
-// Figure out all extensions supported by Prettier.
-const prettierSupportedExtensions = prettier
-  .getSupportInfo()
-  .languages.map(({ extensions }) => extensions)
-  .flat()
-
 const addQuotes = (a) => `"${a}"`
 
-module.exports = (allStagedFiles) => {
+module.exports = async (allStagedFiles) => {
+  // Figure out all extensions supported by Prettier.
+  const prettierSupportedExtensions = await prettier
+    .getSupportInfo()
+    .languages.map(({ extensions }) => extensions)
+    .flat()
+
   // Match files for ESLint
   const eslintFiles = micromatch(allStagedFiles, ["**/*.{js,ts}"], {
     dot: true,
@@ -25,7 +25,7 @@ module.exports = (allStagedFiles) => {
   const prettierFiles = micromatch(
     allStagedFiles,
     prettierSupportedExtensions.map((extension) => `**/*${extension}`),
-    { dot: true }
+    { dot: true },
   )
 
   // Array of linters to be run in this sequence.

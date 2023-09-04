@@ -22,7 +22,7 @@ export async function buildOptimizedSVG(): Promise<void> {
     // iterate counter + output to inform user
     counter += 1
     console.log(
-      `${counter}/${Object.keys(ops).length} - ${path.normalize(`${TEMP_DIR}/svg/${op}.svg`)}`
+      `${counter}/${Object.keys(ops).length} - ${path.normalize(`${TEMP_DIR}/svg/${op}.svg`)}`,
     )
 
     // optimize svg with svgo
