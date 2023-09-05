@@ -2,6 +2,12 @@
 
 All versions upwards from `2.0.0` project will be documented in this file. For all older version, please check the [Releases](https://github.com/marcopixel/r6operators/releases/) tab.
 
+## 2.6.1 (2023-09-05)
+
+### 🐛 Bug Fixes
+
+- 🛠 Fixed Ram icon inconsistencies & removed embedded raster image (thanks to @danielwerg, [66ba1aa](https://github.com/marcopixel/r6operators/commit/66ba1aa855932acf18547d6dc7b6546810c40ff0))
+
 ## 2.6.0 (2023-09-04)
 
 ### ✨ Features
