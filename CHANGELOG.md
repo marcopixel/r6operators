@@ -2,6 +2,12 @@
 
 All versions upwards from `2.0.0` project will be documented in this file. For all older version, please check the [Releases](https://github.com/marcopixel/r6operators/releases/) tab.
 
+## 2.7.0 (2023-11-22)
+
+### ✨ Features
+
+- 🌟 Added Tubarão operator icon & metadata (thanks to @danielwerg, [d924845](https://github.com/marcopixel/r6operators/commit/d924845f279b2910300468b3291fe4a89fcccbe4))
+
 ## 2.6.1 (2023-09-05)
 
 ### 🐛 Bug Fixes
