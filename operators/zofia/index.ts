@@ -4,7 +4,7 @@ export const zofia: IOperator = {
   name: "Zofia",
   role: "Attacker",
   org: "GROM",
-  squad: "GROM",
+  squad: "GHOSTEYES",
   ratings: {
     health: 3,
     speed: 1,
