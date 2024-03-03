@@ -37,7 +37,7 @@
     "test": "jest",
     "lint": "eslint **/*.{js,ts} --ignore-path .gitignore",
     "format": "prettier **/* --ignore-path .gitignore --check --write",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "clsx": "^2.0.0"
@@ -51,14 +51,14 @@
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@types/jest": "^29.2.4",
     "@types/node": "^20.2.3",
-    "@typescript-eslint/eslint-plugin": "^6.6.0",
-    "@typescript-eslint/parser": "^6.6.0",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
     "cheerio": "^1.0.0-rc.10",
-    "dts-bundle-generator": "^8.0.1",
+    "dts-bundle-generator": "^9.3.1",
     "eslint": "^8.3.0",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-unicorn": "^49.0.0",
-    "husky": "^8.0.1",
+    "eslint-plugin-unicorn": "^51.0.1",
+    "husky": "^9.0.11",
     "jest": "^29.3.1",
     "lint-staged": "^15.1.0",
     "micromatch": "^4.0.4",
