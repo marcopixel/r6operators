@@ -2,6 +2,17 @@
 
 All versions upwards from `2.0.0` project will be documented in this file. For all older version, please check the [Releases](https://github.com/marcopixel/r6operators/releases/) tab.
 
+## 2.8.0 (2024-03-03)
+
+### ✨ Features
+
+- 🌟 Added Deimos operator icon & metadata ([0af085d](https://github.com/marcopixel/r6operators/commit/0af085d0130f794ed69ef3c03d63773eda77aca1))
+
+### 🐛 Bug Fixes
+
+- 🛠 Fixed Zofia squad copy/paste mistake ([74a4cb7](https://github.com/marcopixel/r6operators/commit/74a4cb70b87e0098f0fc618c80ed55d316aea8f8))
+
+
 ## 2.7.0 (2023-11-22)
 
 ### ✨ Features
