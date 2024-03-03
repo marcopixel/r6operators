@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`toSVG() returns correct string 1`] = `"<svg xmlns="http://www.w3.org/2000/svg" space="preserve" style="enable-background:new 0 0 350 350" viewBox="0 0 350 350" class="r6operators r6operators-ace"><circle cx='50' cy='50' r='40' stroke='black' stroke-width='3' fill='red' /></svg>"`;
+exports[`toSVG() returns correct string 1`] = `"<svg xmlns="http://www.w3.org/2000/svg" space="preserve" viewBox="0 0 350 350" class="r6operators r6operators-ace"><circle cx='50' cy='50' r='40' stroke='black' stroke-width='3' fill='red' /></svg>"`;
 
-exports[`toSVG() returns correct string 2`] = `"<svg xmlns="http://www.w3.org/2000/svg" space="preserve" style="enable-background:new 0 0 350 350" viewBox="0 0 350 350" class="r6operators r6operators-ace" stroke-width="1" color="red"><circle cx='50' cy='50' r='40' stroke='black' stroke-width='3' fill='red' /></svg>"`;
+exports[`toSVG() returns correct string 2`] = `"<svg xmlns="http://www.w3.org/2000/svg" space="preserve" viewBox="0 0 350 350" class="r6operators r6operators-ace" stroke-width="1" color="red"><circle cx='50' cy='50' r='40' stroke='black' stroke-width='3' fill='red' /></svg>"`;
 
-exports[`toSVG() returns correct string 3`] = `"<svg xmlns="http://www.w3.org/2000/svg" space="preserve" style="enable-background:new 0 0 350 350" viewBox="0 0 350 350" class="r6operators r6operators-ace foo bar" color="green"><circle cx='50' cy='50' r='40' stroke='black' stroke-width='3' fill='red' /></svg>"`;
+exports[`toSVG() returns correct string 3`] = `"<svg xmlns="http://www.w3.org/2000/svg" space="preserve" viewBox="0 0 350 350" class="r6operators r6operators-ace foo bar" color="green"><circle cx='50' cy='50' r='40' stroke='black' stroke-width='3' fill='red' /></svg>"`;
