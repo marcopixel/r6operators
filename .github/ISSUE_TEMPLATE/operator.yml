@@ -7,7 +7,7 @@ body:
     id: name
     attributes:
       label: Name/Nickname
-      description: 'Readable name of the operator'
+      description: 'Readable name of the operator.'
       placeholder: 'ex: Sledge, Jäger'
     validations:
       required: true
@@ -15,7 +15,7 @@ body:
     id: role
     attributes:
       label: Role
-      description: 'Role of the operator'
+      description: 'Role of the operator.'
       options:
         - Attacker
         - Defender
@@ -25,7 +25,7 @@ body:
     id: org
     attributes:
       label: Organization
-      description: 'Operator organisation name'
+      description: 'Operator organisation name.'
       placeholder: 'ex: FBI, SWAT'
     validations:
       required: true
@@ -33,7 +33,7 @@ body:
     id: squad
     attributes:
       label: Squad
-      description: 'Operator squad name'
+      description: 'Operator squad name.'
       placeholder: 'ex: Nighthaven'
     validations:
       required: true
@@ -41,7 +41,7 @@ body:
     id: speed
     attributes:
       label: Speed
-      description: 'Speed rating'
+      description: 'Speed rating.'
       options:
         - 1
         - 2
@@ -52,7 +52,7 @@ body:
     id: health
     attributes:
       label: Health
-      description: 'Health Rating'
+      description: 'Health Rating.'
       options:
         - 1
         - 2
@@ -63,7 +63,7 @@ body:
     id: difficulty
     attributes:
       label: Difficilty
-      description: 'Difficulty rating'
+      description: 'Difficulty rating.'
       options:
         - 1
         - 2
@@ -74,7 +74,7 @@ body:
     id: gender
     attributes:
       label: Gender
-      description: 'm - Male, f - Female, o - Other, n - None/Not applicable, u - Unknown'
+      description: 'm - Male, f - Female, o - Other, n - None/Not applicable, u - Unknown.'
       options:
         - 'm'
         - 'f'
@@ -87,7 +87,7 @@ body:
     id: country
     attributes:
       label: Country
-      description: 'Country of the operator as a ISO 3166-1 alpha-2 code (two-letter). https://wikipedia.org/wiki/ISO_3166-1_alpha-2'
+      description: 'Country of the operator as a ISO 3166-1 alpha-2 code (https://wikipedia.org/wiki/ISO_3166-1_alpha-2).'
       placeholder: 'ex: DE, SK'
     validations:
       required: true
@@ -95,7 +95,7 @@ body:
     id: season
     attributes:
       label: Season
-      description: 'Season shorthandle when the operator was first introduced to the game'
+      description: 'Season shorthandle when the operator was first introduced to the game.'
       placeholder: 'ex: Y1S1'
     validations:
       required: true
@@ -111,7 +111,7 @@ body:
     id: weight
     attributes:
       label: Weight
-      description: 'Weight of the operator, in kg'
+      description: 'Weight of the operator, in kg.'
       placeholder: 'ex: 75'
     validations:
       required: true
