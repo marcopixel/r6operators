@@ -115,6 +115,31 @@ body:
       placeholder: 'ex: 75'
     validations:
       required: true
+  - type: input
+    id: real-name
+    attributes:
+      label: Real name
+      description: 'Real name of the operator.'
+      placeholder: 'Miles Campbell'
+    validations:
+      required: true
+  - type: input
+    id: birthplace
+    attributes:
+      label: Birthplace
+      description: 'Birthplace of the operator, including the country.'
+      placeholder: 'Sherman Oaks, U.S.A'
+    validations:
+      required: true
+  # Can be add later
+  # - type: input
+  #   id: date-of-birth
+  #   attributes:
+  #     label: Date of birth
+  #     description: 'Date of birth of the operator as a ISO 8601 (https://wikipedia.org/wiki/ISO_8601).'
+  #     placeholder: 'ex: 1968-07-12'
+  #   validations:
+  #     required: true
   - type: textarea
     id: icon
     attributes:
