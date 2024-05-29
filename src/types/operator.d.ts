@@ -51,7 +51,7 @@ interface IOperatorMeta {
   season: string
   /** Height of the operator, in cm. */
   height: number
-  /** Weight of the operator, in cm. */
+  /** Weight of the operator, in kg. */
   weight: number
   /** Object containing unlock prices for operators */
   price?: {
