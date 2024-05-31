@@ -2,6 +2,13 @@
 
 All versions upwards from `2.0.0` project will be documented in this file. For all older version, please check the [Releases](https://github.com/marcopixel/r6operators/releases/) tab.
 
+## 2.9.0 (2024-05-31)
+
+### ✨ Features
+* 🌟 add sentry and striker metadata and icon by @danielwerg in https://github.com/marcopixel/r6operators/pull/58
+* 📝 add operator issue template by @danielwerg in https://github.com/marcopixel/r6operators/pull/57
+
+
 ## 2.8.0 (2024-03-03)
 
 ### ✨ Features
