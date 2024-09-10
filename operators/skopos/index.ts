@@ -11,7 +11,7 @@ export const ace: IOperator = {
   },
   meta: {
     gender: "f",
-    country: "Greek",
+    country: "gr",
     season: "Y9S3",
     height: 167,
     weight: 58,
