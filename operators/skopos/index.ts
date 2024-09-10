@@ -1,9 +1,10 @@
 import { IOperator } from "~/types/operator"
 
-export const ace: IOperator = {
+export const skopos: IOperator = {
   name: "Skopós",
   role: "Defender",
-  unit: "WOLFGUARD",
+  org: "EKAM",
+  squad: "WOLFGUARD",
   ratings: {
     health: 2,
     speed: 2,
