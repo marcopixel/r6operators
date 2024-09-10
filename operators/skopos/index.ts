@@ -14,7 +14,7 @@ export const ace: IOperator = {
     country: "gr",
     season: "Y9S3",
     height: 167,
-    weight: 58,
+    weight: 55,
   },
   bio: {
     real_name: "Kure Galanos",
