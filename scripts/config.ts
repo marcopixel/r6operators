@@ -8,7 +8,7 @@ const DIST_DIR = path.resolve(`./dist`)
 const ENTRY_FILE = path.resolve("./src/index.ts")
 const DECLARATION_FILE = path.resolve("./src/types/index.d.ts")
 
-const CURRENT_SEASON = "Y8S3"
+const CURRENT_SEASON = "Y9S4"
 
 const SVGO_PLUGINS: PluginConfig[] = [
   // "cleanupIDs" plugin is added at the build-optimized-svg script directly
