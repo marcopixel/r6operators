@@ -2,6 +2,12 @@
 
 All versions upwards from `2.0.0` project will be documented in this file. For all older version, please check the [Releases](https://github.com/marcopixel/r6operators/releases/) tab.
 
+## 2.10.0 (2024-09-21)
+
+### ✨ Features
+
+- 🌟 Added Skopós operator icon & metadata (thanks to @J4yJ4y-R6 & @AlmostSuspense, [aa570e7](https://github.com/marcopixel/r6operators/commit/aa570e71e79539e5870d6e4196ed84cfb0af97fa))
+
 ## 2.9.0 (2024-05-31)
 
 ### ✨ Features
