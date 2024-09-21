@@ -1,5 +1,5 @@
 import path from "path"
-import cheerio from "cheerio"
+import * as cheerio from "cheerio"
 import stringifyObject from "stringify-object"
 import { promises as fs } from "fs"
 
