@@ -2,6 +2,13 @@
 
 All versions upwards from `2.0.0` project will be documented in this file. For all older version, please check the [Releases](https://github.com/marcopixel/r6operators/releases/) tab.
 
+## 2.10.2 (2024-10-16)
+
+### 🐛 Bug Fixes
+
+- 🛠 Fixed incorrect CURRENT_SEASON value again (thanks to @AlmostSuspense, [215fbf7](https://github.com/marcopixel/r6operators/commit/215fbf709b91f3ba31958b19fc461820f395d19e))
+
+
 ## 2.10.1 (2024-09-21)
 
 ### 🐛 Bug Fixes
