@@ -2,6 +2,12 @@
 
 All versions upwards from `2.0.0` project will be documented in this file. For all older version, please check the [Releases](https://github.com/marcopixel/r6operators/releases/) tab.
 
+## 2.11.1 (2025-03-26)
+
+### 🐛 Bug Fixes
+
+- 🛠 Fixed incorrect CURRENT_SEASON value ([79591bc](https://github.com/marcopixel/r6operators/commit/79591bc93c9aa0de6c3f41fab9bf51034d45ad27))
+
 ## 2.11.0 (2025-03-24)
 
 - 🌟 Added Rauora operator icon & metadata (thanks to @J4yJ4y-R6 & @ynn-dev, [03a2805](https://github.com/marcopixel/r6operators/commit/03a28059efb2d26b18de18bbcf1546acf9682656), [ba9b2cd](https://github.com/marcopixel/r6operators/commit/ba9b2cdee5a68682da387fe8c0902f466cb5f1ae))
