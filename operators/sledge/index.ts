@@ -6,8 +6,8 @@ export const sledge: IOperator = {
   org: "SAS",
   squad: "REDHAMMER",
   ratings: {
-    health: 3,
-    speed: 1,
+    health: 2,
+    speed: 2,
     difficulty: 1,
   },
   meta: {

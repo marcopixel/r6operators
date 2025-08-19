@@ -6,8 +6,8 @@ export const blackbeard: IOperator = {
   org: "NAVY SEAL",
   squad: "REDHAMMER",
   ratings: {
-    health: 2,
-    speed: 2,
+    health: 3,
+    speed: 1,
     difficulty: 1,
   },
   meta: {
