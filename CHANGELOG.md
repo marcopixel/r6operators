@@ -2,6 +2,13 @@
 
 All versions upwards from `2.0.0` project will be documented in this file. For all older version, please check the [Releases](https://github.com/marcopixel/r6operators/releases/) tab.
 
+## 2.12.0 (2025-09-14)
+
+- 🌟 Added Denari operator icon & metadata (thanks to @J4yJ4y-R6 & @ynn-dev, [65626bc](https://github.com/marcopixel/r6operators/commit/65626bc216864a74572355aa69fb015290c9546d), [f48b77f](https://github.com/marcopixel/r6operators/commit/f48b77fa40ccef381ba62f4fc2a5e2c138701212))
+
+- 🛠 Fixed outdated metadata on operators (thanks to @ynn-dev, [f8877ee](https://github.com/marcopixel/r6operators/commit/f8877eecf0886bf51117a7b0b1e8324e8204b6fc))
+
+
 ## 2.11.1 (2025-03-26)
 
 ### 🐛 Bug Fixes
